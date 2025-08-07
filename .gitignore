@@ -42,3 +42,7 @@ app-example
 *.apk
 apk-output/
 android/app/build/outputs/apk/
+
+# Log files
+logs/
+*.log
