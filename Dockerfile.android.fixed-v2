@@ -1,0 +1,83 @@
+# Use Java 17 for Android builds
+FROM eclipse-temurin:17-jdk
+
+# Set environment variables
+ENV ANDROID_HOME=/opt/android-sdk
+ENV PATH=${PATH}:${ANDROID_HOME}/cmdline-tools/latest/bin:${ANDROID_HOME}/platform-tools
+ENV JAVA_HOME=/opt/java/openjdk
+
+# Install Node.js 18
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    && curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs \
+    && rm -rf /var/lib/apt/lists/*
+
+# Download and install Android SDK
+RUN mkdir -p ${ANDROID_HOME} \
+    && cd ${ANDROID_HOME} \
+    && curl -o cmdline-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip \
+    && unzip cmdline-tools.zip \
+    && rm cmdline-tools.zip
+
+# Set up additional environment variables for temp directories
+ENV TMPDIR=/tmp \
+    npm_config_cache=/root/.npm \
+    npm_config_tmp=/tmp \
+    LOG_DIR=/var/log \
+    BARBUDDY_LOG_DIR=/var/log/barbuddy
+
+RUN mkdir -p ${ANDROID_HOME}/cmdline-tools/latest
+RUN mv ${ANDROID_HOME}/cmdline-tools/bin ${ANDROID_HOME}/cmdline-tools/lib ${ANDROID_HOME}/cmdline-tools/source.properties ${ANDROID_HOME}/cmdline-tools/latest
+
+# Accept licenses and install required components
+RUN yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses
+RUN ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.0"
+
+# Install Expo CLI and EAS CLI
+RUN npm install -g expo-cli eas-cli
+
+# Set up working directory
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package.json package-lock.json* ./
+RUN npm install
+
+# Copy the rest of the application
+COPY . .
+
+# Apply the use-latest-callback fix AFTER copying all files
+RUN node fix-use-latest-callback-lib.js
+
+# Also fix any nested use-latest-callback packages in expo-router
+RUN find node_modules -name "use-latest-callback" -type d -exec sh -c 'cd "$1" && if [ ! -d lib ]; then mkdir -p lib; fi && if [ ! -f lib/index.js ]; then echo "module.exports = require(\"../src/index.js\") || function useLatestCallback(callback) { const ref = require(\"react\").useRef(callback); ref.current = callback; return require(\"react\").useCallback((...args) => ref.current(...args), []); }; module.exports.default = module.exports;" > lib/index.js; fi' _ {} \;
+
+# Create custom NavigationContainer
+RUN mkdir -p components
+COPY docker-build-files/CustomNavigationContainer.js ./components/
+
+# Update metro.config.js
+COPY docker-build-files/metro.config.js ./
+
+# Generate native Android project
+RUN npx expo prebuild --platform android --clean
+
+# CRITICAL FIX: Use the pre-generated bundle that was created locally
+# Create the assets directory
+RUN mkdir -p android/app/src/main/assets
+
+# The bundle was already generated locally and copied to the source
+# It will be included when we COPY . . above
+# Verify the bundle exists (it should be ~4-5 MB)
+RUN ls -la android/app/src/main/assets/index.android.bundle || echo "ERROR: Bundle not found!"
+
+# Verify bundle exists and copy it
+RUN ls -la android/app/src/main/assets/ || echo "Assets directory not found"
+RUN test -f android/app/src/main/assets/index.android.bundle && echo "Bundle found: $(ls -lh android/app/src/main/assets/index.android.bundle)" || echo "ERROR: Bundle not found!"
+
+# Build the release APK (uses bundled JS, not Metro)
+RUN cd android && ./gradlew assembleRelease
+
+# The APK will be available at /app/android/app/build/outputs/apk/release/app-release-unsigned.apk

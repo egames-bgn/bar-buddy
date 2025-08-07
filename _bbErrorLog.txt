@@ -1,0 +1,1392 @@
+
+07-10 07:39:35.874 2828-4404/? I/DataStallMonitor: TcpDataFromSnmp:19,22,3,0
+07-10 07:39:36.190 2011-4145/? I/WifiHAL: event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+07-10 07:39:36.191 3201-4146/? D/LOWI-9.0.1.65: [LOWI-Scan] wait_event:Wait done with Cmd 103
+    [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+07-10 07:39:36.191 3090-3090/? I/cnss-daemon: nl80211 response handler invoked
+    nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+07-10 07:39:36.775 2239-2559/? I/Scheduler: applyPolicy: UpdateRefreshRate 60 to 90 of group 0: [touch=1:1 touchBoost=1 scroll=0:0 idle=1:0] for display 4630947043778501763
+07-10 07:39:36.776 2239-2559/? D/DisplayModeController: setDesiredMode 4630947043778501763 {mode={fps=90.00 Hz, modePtr={id=3, vsyncRate=90.00 Hz, peakRefreshRate=90.00 Hz}}, emitEvent=true, force=false}
+07-10 07:39:36.778 2239-2239/? I/SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(60.00 Hz:0) to 3(90.00 Hz:0) for display 4630947043778501763
+    initiateDisplayModeChanges active mode changed to 3(90.00 Hz) for display 4630947043778501763. mBrightnessDimingCnt=0
+07-10 07:39:36.779 2136-5360/? W/SDM: HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1102000000
+07-10 07:39:36.779 2136-5360/? I/SDM: HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+    HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 0 to 3
+07-10 07:39:36.790 2239-2536/? D/VSyncReactor: 4630947043778501763: confirming period 16->11(cnt1)
+07-10 07:39:36.807 2239-2536/? D/VSyncReactor: 4630947043778501763: period 11 confirmed(cnt1)
+07-10 07:39:36.813 2239-2239/? I/SurfaceFlinger: initiateDisplayModeChanges changing active mode from 3(90.00 Hz:0) to 3(90.00 Hz:0) for display 4630947043778501763
+07-10 07:39:36.814 2828-2855/? I/DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=90.0, presentationDeadlineNanos=14111110, appVsyncOffsetNanos=6555557
+07-10 07:39:36.817 2828-2970/? D/BrightnessThermalClamper: Thermal status observer already started
+07-10 07:39:36.818 1971-5213/? D/AHAL: AudioDevice: SetParameters: 1507: enter: screen_state=on
+07-10 07:39:36.818 1971-5213/? D/AHAL: AudioVoice: VoiceSetParameters: 88: Enter params: screen_state=on
+    VoiceSetParameters: 321: Exit ret: 0
+07-10 07:39:36.818 1971-5213/? D/AHAL: hfp: hfp_set_parameters: 444: enter
+07-10 07:39:36.818 1971-5213/? D/AHAL: FM: fm_set_parameters: 261: Enter
+    fm_set_parameters: 319: exit
+07-10 07:39:36.818 1971-5213/? D/AHAL: AudioDevice: SetParameters: 1569:  - screen = on
+07-10 07:39:36.818 1971-5213/? I/PAL: ResourceManager: setParameter: 8934: Screen State:1
+07-10 07:39:36.818 1971-5213/? D/AHAL: AudioDevice: SetParameters: 2307: exit: screen_state=on
+07-10 07:39:36.818 2828-2855/? D/DisplayManagerService: Ignore redundant display event 0/2 to 10238/9388
+    Ignore redundant display event 0/2 to 10238/9476
+07-10 07:39:36.819 2828-2855/? D/DisplayManagerService: Ignore redundant display event 0/2 to 10178/21691
+    Ignore redundant display event 0/2 to 10285/23433
+    Ignore redundant display event 0/2 to 10362/26445
+    Ignore redundant display event 0/2 to 10350/27495
+07-10 07:39:36.819 480-516/? W/DefaultDisplay: realSize: Point(1080, 2400) smallestSize: Point(1080, 1080) largestSize: Point(2400, 2400) HingeSize: 0
+07-10 07:39:36.825 16137-16810/? D/MCLOG: [BrightnessTrigger] onDisplayChanged displayId = 0
+07-10 07:39:36.826 16137-16810/? D/MCLOG: [BrightnessManager] displayId = 0 brightness = 0.85440856 nit = 500.0 level = br5
+07-10 07:39:36.826 7042-7042/? I/FileStationLog: [ FS_f$a ] - [Display] Changed display: 0
+07-10 07:39:36.827 7042-7042/? I/FileStationLog: [ FS_f ] - [Logic] Retrieved display info: LogicDisplayInfo(width=1080, height=2400, orientation=1, rotation=0, displayId=0)
+    [ FS_f$a ] - [Display] New logical size: 1080x2400
+    [ FS_f$a ] - [Display] Screen width unchanged: 1080
+07-10 07:39:36.893 2828-27374/? D/AudioTrack: setVolume: mRelativePercentage:1.000000, left:0.501187, right:0.501187
+07-10 07:39:36.896 2232-3063/? W/Permission: The package name(android) provided does not correspond to the uid 1041
+07-10 07:39:36.899 2828-4377/? D/ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+07-10 07:39:36.899 2828-4377/? I/SettingsAccessControlPolicy: isDeviceSettingsChangeDisabled: value -> false
+07-10 07:39:36.900 2828-4377/? D/CompatChangeReporter: Compat change id reported: 151861875; UID 10309; state: ENABLED
+07-10 07:39:36.900 2828-4377/? W/OptProp: Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+07-10 07:39:36.901 1971-5213/? I/EffectsFactory: EffectCreate() create_effect
+07-10 07:39:36.902 1971-5213/? V/DlbVolumeListener: Create Dolby Listener Effect.
+    create CREATED_CONTEXT 0xb40000711a25cb80 sessionId 1649 ioId 13 stream_type 3
+07-10 07:39:36.902 1971-5213/? I/DlbVolumeListener: create() Created effect System Listener
+07-10 07:39:36.902 1971-5213/? V/DlbVolumeListener: effectGetDescriptor
+07-10 07:39:36.902 1971-5213/? I/DlbVolumeListener: effectGetDescriptor() Returning descriptor for System Listener
+07-10 07:39:36.902 1971-5213/? V/DlbVolumeListener: effectGetDescriptor
+07-10 07:39:36.902 1971-5213/? I/DlbVolumeListener: effectGetDescriptor() Returning descriptor for System Listener
+07-10 07:39:36.902 1971-5215/? V/DlbVolumeListener: effectCommand
+    effectCommand :: Command EFFECT_CMD_INIT
+07-10 07:39:36.903 1971-5213/? V/DlbVolumeListener: effectCommand
+07-10 07:39:36.903 1971-5213/? D/DlbVolumeListener: effectCommand :: Command EFFECT_CMD_OFFLOAD offload=0 ioHandle=13
+07-10 07:39:36.903 1971-5215/? V/DlbVolumeListener: effectCommand
+    effectCommand :: Command EFFECT_CMD_SET_CONFIG
+07-10 07:39:36.903 1971-5213/? V/DlbVolumeListener: effectCommand
+    effectCommand :: Command EFFECT_CMD_SET_CONFIG
+07-10 07:39:36.904 1971-5215/? V/DlbVolumeListener: effectCommand
+07-10 07:39:36.906 2232-3063/? D/APM_AudioPolicyManager: startOutput() output 13, stream 1, session 1649
+07-10 07:39:36.906 2828-4377/? V/GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e87462b6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-10 07:39:36.907 2828-4377/? W/OptProp: Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+07-10 07:39:36.907 2828-3929/? D/PowerManagerService: nativeAcquireSuspendBlocker name:PowerManagerService.WakeLocks duration ms: 1
+07-10 07:39:36.907 2828-4377/? W/OptProp: Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+07-10 07:39:36.907 2828-4377/? D/CompatChangeReporter: Compat change id reported: 306666082; UID 10309; state: ENABLED
+07-10 07:39:36.908 2828-4377/? D/ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+07-10 07:39:36.910 2828-4377/? D/ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    sendShowDecorCaptionWindow Task is not organized Task{68237d5 #16774 type=undefined}
+    sendShowDecorCaptionWindow Task is not organized Task{68237d5 #16774 type=undefined}
+07-10 07:39:36.913 2828-4377/? D/ActivityTaskManager: getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+    getPreferredLaunchDisplay userset_displayid false user set display id 0, current focus display 0
+07-10 07:39:36.915 2828-4377/? D/PowerManagerService: nativeSetPowerMode ret:false mode:5 enabled:true duration ms: 0
+07-10 07:39:36.916 2828-4377/? D/ActivityTrigger: ActivityTrigger activityPauseTrigger 
+07-10 07:39:36.917 2828-4377/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.barbuddy.prototype/.MainActivity bnds=[206,1120][412,1375]} with LAUNCH_SINGLE_TASK from uid 10351 (startActivityAsUser) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+07-10 07:39:36.917 4207-4248/? V/WindowManagerShell: Transition requested (#4304): android.os.BinderProxy@878c613 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=16774 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.barbuddy.prototype/.MainActivity } baseActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} topActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} origActivity=null realActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} numActivities=1 lastActiveTime=761106890 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=false minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d785050} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 112 - 0, 0) topActivityInfo=ActivityInfo{292c249 com.barbuddy.prototype.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4304 }
+07-10 07:39:36.918 480-480/? E/TelemetryLogger: You are firing an action event(scenario:AppIcon,pageName:AppDrawer,pageName2:,action:Launch,target:App) without related view event, please check if any param is wrong or define it in allowed list in TelemetryLogger
+07-10 07:39:36.918 2828-2855/? V/GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@e87462b6 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-10 07:39:36.919 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:36.920 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:36.920 2828-4377/? D/CompatChangeReporter: Compat change id reported: 309578419; UID 10309; state: ENABLED
+07-10 07:39:36.926 15440-15440/? I/TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=16774, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.barbuddy.prototype/.MainActivity }
+07-10 07:39:36.933 1865-1865/? D/Zygote: Forked child process 27672
+07-10 07:39:36.935 2828-2875/? I/ActivityManager: Start proc 27672:com.barbuddy.prototype/u0a309 for next-top-activity {com.barbuddy.prototype/com.barbuddy.prototype.MainActivity}
+07-10 07:39:36.937 1971-5215/? V/DlbVolumeListener: effectCommand
+07-10 07:39:36.937 1971-5215/? D/DlbDlbEffect: handle_EFFECT_CMD_SET_DEVICE(device=0x00000002)
+07-10 07:39:36.937 1971-5215/? D/DlbDapEndpointParamCache: setDevice(device=0x00000002)
+07-10 07:39:36.938 1971-5213/? D/EffectMsst: Msst_command INPUTS: cmdCode[9], cmdSize[4].
+    Msst_command: EFFECT_CMD_SET_DEVICE: 0x2.
+    Msst_setProfile(): profile==1 is the same, skip..
+07-10 07:39:36.938 1971-5213/? D/AHAL: AudioStream: out_update_source_metadata_v7: 1258: track count is 0 for usecase(1: low-latency-playback)
+07-10 07:39:36.938 2036-2117/? D/DolbyManagerService: setActiveDevice called with device = 0x2 (original 0x2)
+07-10 07:39:36.938 1971-4721/? D/AHAL: AudioDevice: CreateAudioPatch: 469: enter: num sources 1, num_sinks 1
+    CreateAudioPatch: 484: source role 1, source type 2
+    CreateAudioPatch: 512: Playback patch from mix handle 13 to device 2
+07-10 07:39:36.938 1971-4721/? I/AHAL: AudioDevice: OutGetStream: 1300: Found existing stream associated with iohandle 13
+07-10 07:39:36.938 1971-4721/? D/AHAL: AudioVoice: RouteStream: 446: Enter
+    GetMatchingTxDevices: 426: out device for speaker mic 0
+    RouteStream: 475: Routing is 2
+07-10 07:39:36.938 1971-4721/? D/AHAL: AudioDevice: GetPalDeviceIds: 2552: haldeviceIds: 1
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioDevice: GetPalDeviceIds: 2559: Found haldeviceId: 2 and PAL Device ID 3
+    GetPalDeviceIds: 2578: devices allocated 1, pal device ids before returning 1
+    GetPalDeviceIds: 2552: haldeviceIds: 1
+    GetPalDeviceIds: 2559: Found haldeviceId: 80000080 and PAL Device ID 26
+    GetPalDeviceIds: 2578: devices allocated 1, pal device ids before returning 1
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioVoice: RouteStream: 550: Exit ret: 0
+07-10 07:39:36.939 1971-4721/? I/AHAL: AudioStream: RouteStream: 2563: enter: usecase(1: low-latency-playback) devices 0x2, num devices 1
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioStream: RouteStream: 2566: mAndroidOutDevices 0x2, mNoOfOutDevices 1
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioDevice: GetPalDeviceIds: 2552: haldeviceIds: 1
+    GetPalDeviceIds: 2559: Found haldeviceId: 2 and PAL Device ID 3
+    GetPalDeviceIds: 2578: devices allocated 1, pal device ids before returning 1
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioStream: RouteStream: 2625: noPalDevices: 1 , new_devices: 1
+    RouteStream: 2760: exit 0
+07-10 07:39:36.939 1971-4721/? D/AHAL: AudioDevice: CreateAudioPatch: 583: Exit ret: 0
+07-10 07:39:36.939 2232-3062/? D/AudioFlinger::PatchCommandThread: updateAudioPatch handle 48308 mHalHandle 1 num sinks 1 device sink 00000002
+07-10 07:39:36.939 2239-2239/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-10 07:39:36.940 2232-2344/? D/audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+07-10 07:39:36.940 2828-4367/? W/AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 236
+07-10 07:39:36.942 2232-3455/? D/AudioFlinger: checkAudioTracks(flags=0x900) with audio track flags updated to 0x900 on audio output 13
+07-10 07:39:36.942 1971-5213/? D/DlbDapEffectContext: setParam() received parameter EFFECT_PARAM_SET_AUDIO_FLAG
+    setAudioFlags(flag=0x00000900)
+    updateInputFormat() mIsDmsContentProcEnabled: 1, channels: 0x3, mCurrentDevice: 0x2, mAudioFlags: 0x900
+07-10 07:39:36.942 1971-5213/? D/DlbDap2Process: setHTParam: mIsBinauralInput: 0
+    DAP input format is 0x22 with input channel mask 0x3
+07-10 07:39:36.942 1971-5213/? D/AHAL: AudioStream: out_update_source_metadata_v7: 1258: track count is 1 for usecase(1: low-latency-playback)
+    out_update_source_metadata_v7: 1300: Source metadata usage:13 content_type:4
+    SetAggregateSourceMetadata: 4005: Aggregated Source metadata usage:13 content_type:4
+07-10 07:39:36.943 1971-5213/? V/DlbVolumeListener: effectCommand
+07-10 07:39:36.943 27672-27672/? I/buddy.prototype: Using CollectorTypeCMC GC.
+07-10 07:39:36.943 1971-5213/? V/DlbVolumeListener: effectCommand :: Command EFFECT_CMD_ENABLE
+    effectCommand
+    Command EFFECT_CMD_SET_VOLUME: left 253738, right 253738
+07-10 07:39:36.943 1971-4639/? D/DlbDapEndpointParamCache: commit() Applying parameters for device 0x40000000
+    doCommit() Committed 0 parameters out of 14.
+    commit() Overriding parameters for current device 0x00000002
+    doCommit() Committed 0 parameters out of 65.
+07-10 07:39:36.944 1971-6468/? D/AHAL: AudioStream: AutoPerfLock: 314: (Acquired) perf_lock_handle: 0x3fa32, count: 1
+07-10 07:39:36.944 1971-6468/? I/AHAL: AudioStream: Open: 3146: Enter: OutPrimary usecase(1: low-latency-playback)
+07-10 07:39:36.944 1971-6468/? D/AHAL: AudioStream: Open: 3152: no_of_devices 1
+    Open: 3216: halInputFormat 5 halOutputFormat 3 palformat 23
+    Open: 3283: channels 2 samplerate 48000 format id 23, stream type 1  stream bitwidth 32
+    Open: 3284: msample_rate 0 mchannels 0 mNoOfOutDevices 1
+07-10 07:39:36.944 1971-6468/? I/PAL: API: pal_stream_open: 192: Enter, stream type:1 (PAL_STREAM_LOW_LATENCY)
+07-10 07:39:36.944 1971-6468/? I/PAL: ResourceManager: getActiveStream_l: 5666: no active streams found for device 2 (PAL_DEVICE_OUT_HANDSET) ret -2
+    getSharedBEActiveStreamDevs: 6933: got dev 2 (PAL_DEVICE_OUT_HANDSET) active streams on dev is 0
+    getActiveStream_l: 5666: no active streams found for device 3 (PAL_DEVICE_OUT_SPEAKER) ret -2
+    getSharedBEActiveStreamDevs: 6933: got dev 3 (PAL_DEVICE_OUT_SPEAKER) active streams on dev is 0
+07-10 07:39:36.944 1971-6468/? I/PAL: Device: setDeviceAttributes: 374: DeviceAttributes for Device Id 3 updated
+    open: 444: Enter. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+07-10 07:39:36.944 1971-6468/? I/PAL: SessionAlsaUtils: setDeviceMediaConfig: 1055: CODEC_DMA-LPAIF_WSA-RX-0 rate ch fmt data_fmt 48000 2 6 1
+07-10 07:39:36.944 1971-6468/? D/audio_route: Apply path: speaker
+07-10 07:39:36.944 2828-4568/? D/CoreBackPreview: Window{242bc8e u0 Splash Screen com.barbuddy.prototype}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e64b2fd, mPriority=0, mIsAnimationCallback=false}
+07-10 07:39:36.943 4207-4207/? W/ll.splashscreen: type=1400 audit(0.0:637036): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=462 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0 app=com.android.systemui
+07-10 07:39:36.946 4207-4307/? W/libc: Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+07-10 07:39:36.946 2828-2855/? I/ActivityManager: Killing 24501:com.google.android.apps.maps/u0a258 (adj 999, setSvc -10000): empty #31
+07-10 07:39:36.946 1971-6468/? I/PAL: Device: open: 479: Exit. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status: 0
+07-10 07:39:36.946 1971-6468/? I/PAL: ResourceManager: allocateFrontEndIds: 6566: allocateFrontEndIds: front end 117
+07-10 07:39:36.946 1971-6468/? I/PAL: PayloadBuilder: populateStreamKV: 2753: stream type 1
+    getSelectorValues: 2575: Direction: 1
+    getSelectorValues: 2591: Instance: 1
+    findKVs: 2465: key: 0xa1000000 value: 0xa100000e
+    findKVs: 2465: key: 0xab000000 value: 0x1
+    populateDeviceKV: 2867: Enter device id:3 (PAL_DEVICE_OUT_SPEAKER)
+    findKVs: 2478: key: 0xa2000000 value: 0xa2000001
+    populateDeviceKV: 2895: Exit device id:3, status 0
+    populateDevicePPKV: 3035: Rx device id:3 (PAL_DEVICE_OUT_SPEAKER)
+07-10 07:39:36.947 1971-6468/? I/PAL: PayloadBuilder: getSelectorValues: 2651: stream type: 1 (PAL_STREAM_LOW_LATENCY)
+    findKVs: 2465: key: 0xa2000000 value: 0xa2000001
+    findKVs: 2465: key: 0xac000000 value: 0xac000002
+    populateDevicePPCkv: 3190: SpeakerProt Status[1], RAS Status[0]
+07-10 07:39:36.947 1971-6468/? I/AGM: device: device_set_metadata: 707 Setting device metadata for CODEC_DMA-LPAIF_WSA-RX-0
+07-10 07:39:36.947 1971-6468/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:1
+    metadata_print: 301 key:0xa2000000, value:0xa2000001(SPEAKER)
+    metadata_print: 305 
+    CKV count:2
+    metadata_print: 308 key:0xa9000000, value:0x2 
+    metadata_print: 308 key:0xbe000000, value:0x3 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:2
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 318 0x5 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:36.947 1971-6468/? D/agm_server_wrapper: Aif id 7 already added to session list of 117
+07-10 07:39:36.947 1971-6468/? D/AGM: session: aif_obj_get: 110 Couldnt find a aif object in the list, creating one 0xb40000714a26b030
+07-10 07:39:36.947 1971-6468/? I/AGM: session: session_obj_set_sess_aif_metadata: 1777 Setting metadata for sess_id 117, aif id 7
+07-10 07:39:36.947 1971-6468/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:2
+    metadata_print: 301 key:0xa2000000, value:0xa2000001(SPEAKER)
+    metadata_print: 301 key:0xac000000, value:0xac000002(DEVICEPP_RX_AUDIO_MBDRC)
+    metadata_print: 305 
+    CKV count:1
+    metadata_print: 308 key:0xd2000000, value:0x0 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:1
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x3 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:36.947 1971-6468/? I/AGM: session: session_obj_set_sess_aif_metadata: 1782 Exit
+07-10 07:39:36.947 1971-6468/? D/agm_server_wrapper: Aif id 7 already added to session list of 117
+07-10 07:39:36.947 1971-6468/? I/AGM: API: agm_session_aif_connect: 652 connecting aifid:7 with session id=117
+07-10 07:39:36.947 1971-6468/? I/PAL: ResourceManager: GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+    GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+    GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+07-10 07:39:36.947 1971-6468/? I/PAL: API: pal_stream_open: 235: Exit. Value of stream_handle 0xb400006fca25b410K, status 0
+07-10 07:39:36.947 1971-6468/? D/AHAL: AudioStream: GetBufferSize: 3094: type 1
+    Open: 3441: convert buffer allocated for size 0
+    Open: 3447: fragment_size_ 1536 fragments_ 2
+    Open: 3476: Exit ret: 0
+    ~AutoPerfLock: 324: (release) perf_lock_handle: 0x3fa32, count: 1
+    ~AutoPerfLock: 328: Releasing perf_lock_handle: 0x3fa32
+07-10 07:39:36.947 27672-27672/? E/buddy.prototype: Not starting debugger since process cannot load the jdwp agent.
+07-10 07:39:36.947 1971-6468/? D/AHAL: AudioStream: AutoPerfLock: 314: (Acquired) perf_lock_handle: 0x3fa33, count: 1
+07-10 07:39:36.947 1971-6468/? I/PAL: API: pal_stream_start: 301: Enter. Stream handle 0xb400006fca25b410K
+07-10 07:39:36.947 1971-6468/? I/PAL: PayloadBuilder: findKVs: 2478: key: 0xa3000000 value: 0xa3000009
+07-10 07:39:36.947 1971-6468/? I/AGM: device: device_set_metadata: 707 Setting device metadata for CODEC_DMA-LPAIF_WSA-TX-0
+07-10 07:39:36.947 1971-6468/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:1
+    metadata_print: 301 key:0xa3000000, value:0xa3000009(VI_TX)
+    metadata_print: 305 
+    CKV count:1
+    metadata_print: 308 key:0xbf000000, value:0x2 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:1
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:36.947 1971-6468/? I/PAL: SessionAlsaUtils: setDeviceMediaConfig: 1055: CODEC_DMA-LPAIF_WSA-TX-0 rate ch fmt data_fmt 48000 2 10 1
+07-10 07:39:36.947 1971-6468/? I/PAL: ResourceManager: allocateFrontEndIds: 6598: allocateFrontEndIds: front end 121
+07-10 07:39:36.947 1971-6468/? D/agm_server_wrapper: Aif id 10 already added to session list of 121
+07-10 07:39:36.947 1971-6468/? I/AGM: API: agm_session_aif_connect: 652 connecting aifid:10 with session id=121
+07-10 07:39:36.947 1971-6468/? D/AGM: session: aif_obj_get: 110 Couldnt find a aif object in the list, creating one 0xb40000714a26a340
+07-10 07:39:36.947 1971-6468/? I/PAL: SpeakerProtection: spkrProtProcessingMode: 2004: Normal mode being used
+07-10 07:39:36.947 1971-6468/? I/PAL: Device: updateCustomPayload: 397: customPayloadSize = 40
+    updateCustomPayload: 397: customPayloadSize = 80
+    updateCustomPayload: 397: customPayloadSize = 104
+    updateCustomPayload: 397: customPayloadSize = 144
+07-10 07:39:36.947 1971-6468/? D/agm_client_wrapper: agm_session_open called with handle = 5bf338c0 , *handle = 0
+07-10 07:39:36.948 1971-6468/? D/AGM: graph: graph_open: 548 entry
+07-10 07:39:36.948 1971-6468/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:1
+    metadata_print: 301 key:0xa3000000, value:0xa3000009(VI_TX)
+    metadata_print: 305 
+    CKV count:1
+    metadata_print: 308 key:0xbf000000, value:0x2 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:1
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:36.948 1971-6468/? D/AGM: graph: print_graph_alias: 2328 GKV Alias 11 | DeviceTX_VI_TX
+    graph_open: 676 miid 4589 mid 7001024 tag c0000005
+07-10 07:39:36.948 1971-6468/? I/GPR:: __gpr_cmd_register_v2:902 GPR Register: Source Port is 8209 heap_index: 0
+07-10 07:39:36.949 6655-6668/? D/ForegroundUtils: Foreground UID status: 10178, false; 10195, false; 10197, false; 10234, false; 10238, false; 10271, false; 10285, true; 10324, true; 10331, true; 10349, true; 10351, true; 
+07-10 07:39:36.950 1126-2802/? I/audioadsprpcd: vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:984: Successfully opened file /vendor/dsp/adsp/spv5_module.so.1
+07-10 07:39:36.951 5505-5505/? D/GameMode: isScreenUnlocked: true
+07-10 07:39:36.952 27672-27672/? D/nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-10 07:39:36.955 4207-8589/? V/WindowManagerShell: onTransitionReady(transaction=12146167780180)
+07-10 07:39:36.955 4207-4248/? V/WindowManagerShell: onTransitionReady (#4304) android.os.BinderProxy@878c613: {id=4304 t=OPEN f=0x0 trk=0 opt={t=CLIP_REVEAL bounds=Rect(244, 1153 - 374, 1283)} r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@703935f} m=OPEN f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0xda86d80 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@de6e1ac} m=TO_BACK f=SHOW_WALLPAPER pTaskId=-1 leash=Surface(name=Task=1)/@0x313cfb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+    Playing animation for (#4304) android.os.BinderProxy@878c613@0
+     try handler com.android.wm.shell.transition.DefaultMixedHandler@a6640fc
+     try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@43ea385
+     try handler com.android.wm.shell.pip.PipTransition@bf124b3
+     try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@44d5a70
+     try handler com.android.wm.shell.recents.RecentsTransitionHandler@91dd1e9
+07-10 07:39:36.955 4207-4248/? V/ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+07-10 07:39:36.955 4207-4248/? V/WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@add8e6e
+     try handler com.android.wm.shell.transition.RemoteTransitionHandler@8cf590f
+    Transition doesn't have explicit remote, search filters for match for {id=4304 t=OPEN f=0x0 trk=0 opt={t=CLIP_REVEAL bounds=Rect(244, 1153 - 374, 1283)} r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@703935f} m=OPEN f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0xda86d80 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@de6e1ac} m=TO_BACK f=SHOW_WALLPAPER pTaskId=-1 leash=Surface(name=Task=1)/@0x313cfb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+     Delegate animation for (#4304) to null
+     try handler com.android.wm.shell.transition.DefaultTransitionHandler@e05ad9c
+    start default transition animation, info = {id=4304 t=OPEN f=0x0 trk=0 opt={t=CLIP_REVEAL bounds=Rect(244, 1153 - 374, 1283)} r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@703935f} m=OPEN f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0xda86d80 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@de6e1ac} m=TO_BACK f=SHOW_WALLPAPER pTaskId=-1 leash=Surface(name=Task=1)/@0x313cfb9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+07-10 07:39:36.956 4207-4248/? V/WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e05ad9c
+07-10 07:39:36.959 2828-2852/? V/WindowManager: Sent Transition (#4304) createdAt=07-10 07:39:36.907 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=16774 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.barbuddy.prototype/.MainActivity } baseActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} topActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} origActivity=null realActivity=ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} numActivities=1 lastActiveTime=761106890 supportsMultiWindow=true supportsGlobalFreeform=true resizeMode=1 isResizeable=true isAppLocked=false isShowDecorCaptionWindowRequest=false canKillAndRestart=true minWidth=-1 minHeight=-1 defaultMinSize=200 token=WCT{RemoteToken{29ede16 Task{68237d5 #16774 type=standard A=10309:com.barbuddy.prototype}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 112 - 0, 0) topActivityInfo=ActivityInfo{537397 com.barbuddy.prototype.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4304 }
+        startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+        info={id=4304 t=OPEN f=0x0 trk=0 opt={t=CLIP_REVEAL bounds=Rect(244, 1153 - 374, 1283)} r=[0@Point(0, 0)] c=[
+            {WCT{RemoteToken{29ede16 Task{68237d5 #16774 type=standard A=10309:com.barbuddy.prototype}}} m=OPEN f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0xe1d653e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+            {WCT{RemoteToken{eac1484 Task{d76d964 #1 type=undefined}}} m=TO_BACK f=SHOW_WALLPAPER pTaskId=-1 leash=Surface(name=Task=1)/@0x3744120 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+        ]}
+07-10 07:39:36.959 1126-2802/? I/audioadsprpcd: vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:984: Successfully opened file /vendor/dsp/adsp/SAPlusCmnModule.so.1
+07-10 07:39:36.964 2828-4568/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:36.964 2828-2867/? D/addPss: tracker=ProcessState{1fa12c9 android.process.media/10116 pkg=com.android.mtp (multi)}
+07-10 07:39:36.966 2828-3929/? D/CompatChangeReporter: Compat change id reported: 324203798; UID 10309; state: ENABLED
+07-10 07:39:36.966 6655-6668/? D/ForegroundUtils: Foreground UID status: 10178, false; 10195, false; 10197, false; 10234, false; 10238, false; 10271, false; 10285, true; 10309, true; 10324, true; 10331, true; 10349, true; 10351, true; 
+07-10 07:39:36.966 2828-3929/? D/ActivityTaskManager: sendShowDecorCaptionWindow Task is not organized Task{9e54e55 #16579 type=undefined I=com.microsoft.launcher/.Launcher}
+07-10 07:39:36.966 1971-6468/? E/ACDB: AcdbCmdGetProcSubgraphCalDataPersist:8217 Error[19]: No calibration found
+07-10 07:39:36.966 1971-6468/? D/AGM: graph: graph_open: 707 graph_handle 0x147534c
+    graph_open: 743 exit, ret 0
+    graph_set_config: 1105 entry graph_handle 0x147534c
+07-10 07:39:36.967 1971-6468/? D/AGM: graph: graph_set_config: 1113 exit, graph handle 0x147534c, ret 0
+07-10 07:39:36.967 1971-6468/? D/agm_client_wrapper: agm_session_open Received handle = 0x6f5bf338c0 , *handle = b400006fca2537d0
+07-10 07:39:36.967 1971-6468/? D/PLUGIN: pcm: agm_pcm_hw_params: 479 agm_pcm_hw_params: mode: 268435456
+07-10 07:39:36.967 1971-6468/? I/PAL: SpeakerProtection: spkrProtProcessingMode: 2277: Normal mode being used
+    spkrProtProcessingMode: 2304: Normal mode being used
+07-10 07:39:36.967 1971-6468/? I/PAL: Device: updateCustomPayload: 397: customPayloadSize = 24
+    updateCustomPayload: 397: customPayloadSize = 80
+    updateCustomPayload: 397: customPayloadSize = 184
+07-10 07:39:36.967 1971-6468/? D/audio_route: Apply path: vi-feedback
+07-10 07:39:36.967 1971-6468/? D/AGM: graph: graph_prepare: 804 entry graph_handle 0x147534c
+07-10 07:39:36.967 1971-6468/? D/AGM: graph_module: configure_hw_ep_media_config: 697 entry mod tag c0000005 miid 4589 mid 7001024
+    configure_hw_ep_media_config: 727 rate 48000 bw 32 ch 2, data_fmt 1
+07-10 07:39:36.968 1971-6468/? D/AGM: graph_module: configure_hw_ep_media_config: 737 exit, ret 0
+    configure_codec_dma_ep: 314 cdc_dma intf cfg lpaif 2 indx 1 ch_msk 3
+07-10 07:39:36.968 5505-5505/? D/GameMode: onStartedActivityChange: componnent: ComponentInfo{com.barbuddy.prototype/com.barbuddy.prototype.MainActivity} entered launcher screen? true
+07-10 07:39:36.968 1971-6468/? D/AGM: graph_module: configure_codec_dma_ep: 329 exit, ret 0
+07-10 07:39:36.969 2828-2867/? D/addPss: tracker=ProcessState{b7ac12f com.android.DeviceAsWebcam/1000 pkg=com.android.DeviceAsWebcam}
+07-10 07:39:36.969 5505-5505/? D/GameMode: isScreenUnlocked: true
+    isScreenUnlocked: true
+07-10 07:39:36.969 1971-6468/? D/AGM: graph: graph_prepare: 882 exit, ret 0
+    graph_start: 896 entry graph_handle 0x147534c
+07-10 07:39:36.971 1971-6468/? D/AGM: graph: graph_start: 908 exit, ret 0
+07-10 07:39:36.971 5505-5505/? D/GameMode: isScreenUnlocked: true
+07-10 07:39:36.971 1971-6468/? I/PAL: SessionAlsaUtils: setDeviceMediaConfig: 1055: CODEC_DMA-LPAIF_WSA-RX-0 rate ch fmt data_fmt 48000 2 6 1
+07-10 07:39:36.971 1971-6468/? I/PAL: ResourceManager: voteSleepMonitor: 1821: Voting done for nlpi use case, lpi votes 0, nlpi votes : 2
+07-10 07:39:36.971 5505-5505/? D/GameMode: exiting game mode
+07-10 07:39:36.971 1971-6468/? D/agm_client_wrapper: agm_session_open called with handle = 5bf34be0 , *handle = 0
+07-10 07:39:36.972 5505-5505/? D/GameMode: isFeatureSupported: true
+07-10 07:39:36.972 1971-6468/? D/AGM: graph: graph_open: 548 entry
+07-10 07:39:36.972 1971-6468/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:4
+    metadata_print: 301 key:0xa1000000, value:0xa100000e(PCM_LL_PLAYBACK)
+    metadata_print: 301 key:0xab000000, value:0x1( )
+    metadata_print: 301 key:0xa2000000, value:0xa2000001(SPEAKER)
+    metadata_print: 301 key:0xac000000, value:0xac000002(DEVICEPP_RX_AUDIO_MBDRC)
+    metadata_print: 305 
+    CKV count:4
+    metadata_print: 308 key:0xa4000000, value:0xf 
+    metadata_print: 308 key:0xd2000000, value:0x0 
+    metadata_print: 308 key:0xa9000000, value:0x2 
+    metadata_print: 308 key:0xbe000000, value:0x3 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:4
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x1 
+    metadata_print: 318 0x3 
+    metadata_print: 318 0x2 
+    metadata_print: 318 0x5 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:36.972 1971-6468/? D/AGM: graph: print_graph_alias: 2328 GKV Alias 142 | StreamRX_PCM_LL_Playback_DeviceRX_Speaker_Instance_Instance_1_DevicePP_Rx_Audio_MBDRC
+    graph_open: 628 miid 40bd mid 7001000 tag c0000002
+    graph_open: 676 miid 43b1 mid 7001023 tag c0000004
+    graph_open: 628 miid 40c4 mid 7001019 tag c0000006
+    graph_open: 628 miid 40bf mid 7001005 tag c000000e
+    graph_open: 628 miid 40c0 mid 7001003 tag c0000010
+    graph_open: 628 miid 4165 mid 7001032 tag c0000013
+07-10 07:39:36.972 1971-6468/? I/GPR:: __gpr_cmd_register_v2:902 GPR Register: Source Port is 8210 heap_index: 0
+07-10 07:39:36.972 5505-5505/? D/GameMode: isFeatureSupported: true
+    reset : false
+07-10 07:39:36.973 5505-5505/? D/GameMode: isFeatureSupported: true
+07-10 07:39:36.974 1126-2802/? I/audioadsprpcd: vendor/qcom/proprietary/adsprpc/src/apps_std_imp.c:984: Successfully opened file /vendor/dsp/adsp/CFCM.so.1
+07-10 07:39:36.977 4418-4418/? D/GameModeDetector: notifyGameModeStatusValue, value=false
+07-10 07:39:36.977 4418-4418/? D/DaxService: sendGameModeIntent, state=false
+07-10 07:39:36.979 1971-6468/? E/ACDB: AcdbCmdGetProcSubgraphCalDataPersist:8217 Error[19]: No calibration found
+    AcdbCmdGetProcSubgraphCalDataPersist:8217 Error[19]: No calibration found
+    AcdbCmdGetProcSubgraphCalDataPersist:8217 Error[19]: No calibration found
+    AcdbCmdGetProcSubgraphCalDataPersist:8217 Error[19]: No calibration found
+07-10 07:39:36.979 1971-6468/? D/AGM: graph: graph_open: 707 graph_handle 0x247534c
+    graph_open: 743 exit, ret 0
+    graph_set_config: 1105 entry graph_handle 0x247534c
+    graph_set_config: 1113 exit, graph handle 0x247534c, ret 0
+07-10 07:39:36.979 1971-6468/? D/agm_client_wrapper: agm_session_open Received handle = 0x6f5bf34be0 , *handle = b400006fca251f50
+07-10 07:39:36.979 1971-6468/? D/PLUGIN: pcm: agm_pcm_hw_params: 479 agm_pcm_hw_params: mode: 0
+07-10 07:39:36.979 1971-6468/? I/PAL: Session: updateCustomPayload: 619: customPayloadSize = 32
+07-10 07:39:36.979 1971-6468/? D/AGM: graph: graph_set_config: 1105 entry graph_handle 0x247534c
+07-10 07:39:36.980 1971-6468/? D/AGM: graph: graph_set_config: 1113 exit, graph handle 0x247534c, ret 0
+07-10 07:39:36.980 1971-6468/? I/PAL: Session: updateCustomPayload: 619: customPayloadSize = 40
+07-10 07:39:36.980 1971-6468/? D/AGM: graph: graph_set_config: 1105 entry graph_handle 0x247534c
+07-10 07:39:36.980 25904-25919/? D/MotoDolbyUI: getDeviceType, active device is 0x2
+07-10 07:39:36.980 1971-6468/? D/AGM: graph: graph_set_config: 1113 exit, graph handle 0x247534c, ret 0
+    graph_prepare: 804 entry graph_handle 0x247534c
+07-10 07:39:36.980 1971-6468/? D/AGM: graph_module: configure_pcm_shared_mem_ep: 1660 entry mod tag c0000002 miid 40bd mid 7001000
+    configure_pcm_shared_mem_ep: 1736 exit, ret 0
+    configure_hw_ep_media_config: 697 entry mod tag c0000004 miid 43b1 mid 7001023
+    configure_hw_ep_media_config: 727 rate 48000 bw 24 ch 2, data_fmt 1
+07-10 07:39:36.980 25904-25919/? D/MotoDolbyUI: getDeviceType, active device is 0x2
+07-10 07:39:36.980 1971-6468/? D/AGM: graph_module: configure_hw_ep_media_config: 737 exit, ret 0
+    configure_codec_dma_ep: 314 cdc_dma intf cfg lpaif 2 indx 1 ch_msk 3
+    configure_codec_dma_ep: 329 exit, ret 0
+    configure_output_media_format: 820 entry mod tag c000000e miid 40bf mid 7001005
+07-10 07:39:36.981 1971-6468/? D/AGM: graph_module: configure_output_media_format: 951 exit, ret 0
+    configure_output_media_format: 820 entry mod tag c0000010 miid 40c0 mid 7001003
+    configure_output_media_format: 951 exit, ret 0
+    configure_spr: 1864 SPR module IID 4165
+    configure_spr: 1887 HW EP module IID 43b1
+07-10 07:39:36.981 1971-6468/? D/AGM: graph: configure_buffer_params: 199 Enter
+    configure_buffer_params: 262 Playback sess buf_sz 1536 num_bufs 2
+07-10 07:39:36.981 1971-6468/? E/AGM: graph: configure_buffer_params: 295 Unsupported buffer mode : 0, Default to Blocking
+07-10 07:39:36.981 1971-6468/? D/AGM: graph: configure_buffer_params: 315 exit, ret 0
+07-10 07:39:36.982 1971-5215/? D/DlbDapEffectContext: DapEffectContext[0xb40000704a25e5d0] getDapParameter() outval size = 12, ret = 0
+07-10 07:39:36.983 1971-5215/? D/DlbDapEffectContext: DapEffectContext[0xb40000704a25e5d0] getDapParameter() outval size = 12, ret = 0
+07-10 07:39:36.983 4418-13139/? D/DolbyAudioEffectHelper: getDolbyStatus enabled=true profile=3
+07-10 07:39:36.983 4418-13139/? D/DolbyProvider: true, profile=3
+07-10 07:39:36.984 1971-6468/? D/AGM: graph: graph_prepare: 882 exit, ret 0
+    graph_start: 896 entry graph_handle 0x247534c
+07-10 07:39:36.987 1971-6468/? D/AGM: graph: graph_start: 908 exit, ret 0
+07-10 07:39:36.989 27672-27672/? D/nativeloader: Configuring clns-7 for other apk /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/lib/arm64:/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.barbuddy.prototype
+07-10 07:39:36.990 27672-27672/? D/CompatChangeReporter: Compat change id reported: 202956589; UID 10309; state: ENABLED
+07-10 07:39:36.994 27672-27672/? V/GraphicsEnvironment: Currently set values for:
+      angle_gl_driver_selection_pkgs=[]
+      angle_gl_driver_selection_values=[]
+    Global.Settings values are invalid: number of packages: 0, number of values: 0
+    Updatable production driver is not supported on the device.
+07-10 07:39:36.999 27672-27672/? D/CompatChangeReporter: Compat change id reported: 279646685; UID 10309; state: ENABLED
+07-10 07:39:37.002 27672-27672/? W/SoLoader: Initializing SoLoader: 0
+    Recording new base apk path: /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk
+    Previously recorded 0 base apk paths.
+07-10 07:39:37.002 27672-27672/? D/CompatChangeReporter: Compat change id reported: 312399441; UID 10309; state: ENABLED
+07-10 07:39:37.002 27672-27672/? I/SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+    Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+    Preparing SO source: DirectApkSoSource[root = [/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a]]
+07-10 07:39:37.004 27672-27672/? I/SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/lib/arm64 flags = 0]]
+    init finish: 4 SO sources prepared
+07-10 07:39:37.004 27672-27672/? W/SoLoader: SoLoader initialized: 8
+07-10 07:39:37.008 2828-4568/? I/ActivityManager: appDiedLocked: app=ProcessRecord{be585f2 24501:com.google.android.apps.maps/u0a258} thread=android.os.BinderProxy@a534fb9 fromBinderDied=true isKilledByAm=true reason=null
+07-10 07:39:37.009 2828-2887/? I/libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10258/pid_24501
+07-10 07:39:37.009 2828-2887/? W/libprocessgroup: RemoveCgroup: /dev/memcg/apps/uid_10258/pid_24501 does not exist.
+07-10 07:39:37.009 1865-1865/? I/Zygote: Process 24501 exited due to signal 9 (Killed)
+07-10 07:39:37.009 2828-4568/? D/RestartModeController: markWaitRestartAppIsSuicided null processName=com.google.android.apps.maps
+07-10 07:39:37.009 2828-4568/? D/ActivityTaskManager: handleAppDied: uid=10258,diedCount=1,lastDiedTime=536451923,forceStopUids=false
+07-10 07:39:37.009 2828-2853/? D/DisplayManagerService: Drop pending events for gone uid 10258
+07-10 07:39:37.010 2828-4004/? D/ConnectivityService: releasing NetworkRequest [ REQUEST id=34239, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10258 RequestorUid: 10258 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ] (release request)
+07-10 07:39:37.010 6655-6668/? D/ForegroundUtils: UID: 10258 deleted.
+07-10 07:39:37.011 2828-4004/? D/ConnectivityService: releasing NetworkRequest [ REQUEST id=34237, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10258 RequestorUid: 10258 RequestorPkg: com.google.android.apps.maps UnderlyingNetworks: Null] ] (release request)
+07-10 07:39:37.013 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libc++_shared.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.013 2282-2282/? I/GH.CAR: onDestroy
+07-10 07:39:37.016 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libjsi.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.017 2282-2282/? I/GH.CAR: tearDown()
+07-10 07:39:37.018 2282-2282/? I/GH.CarService: tearDown()
+07-10 07:39:37.018 2282-2282/? I/GH.DelegateMngCarSvc: tearDown()
+07-10 07:39:37.020 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libfbjni.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.023 1971-6468/? I/PAL: API: pal_stream_start: 348: Exit. status 0
+07-10 07:39:37.023 1971-6468/? I/AHAL: AudioStream: configurePalOutputStream: 3692: notify GEF client of device config
+07-10 07:39:37.023 1971-6468/? D/generic_effect_ar: gef_device_config_cb: stream type=6 sample_rate=48000 device=2
+07-10 07:39:37.023 1971-6468/? D/AHAL: ext_speaker: audio_extn_extspk_update: 152: devices 0x2
+    audio_extn_extspk_update: 167: exit
+07-10 07:39:37.023 1971-6468/? D/AHAL: AudioStream: ~AutoPerfLock: 324: (release) perf_lock_handle: 0x3fa33, count: 1
+    ~AutoPerfLock: 328: Releasing perf_lock_handle: 0x3fa33
+07-10 07:39:37.023 1971-3972/? D/MotSpeakerHelper: Speaker ON: volume 0.500000 (step 12), usecase SAFE
+    Setting speaker trim 84 (0 dB, 0 dB)
+07-10 07:39:37.028 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libreactnative.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.029 27672-27672/? D/jni_lib_merge: Entering merged library JNI_OnLoad.
+    Preparing 11 pre-merged libs (including stub)
+    Preparing to register libfabricjni_so.  onload_func: 0x6ec290eda0
+    Preparing to register libreact_devsupportjni_so.  onload_func: 0x6ec29e09ec
+    Preparing to register libreact_featureflagsjni_so.  onload_func: 0x6ec29e8c88
+    Preparing to register libreact_newarchdefaults_so.  onload_func: 0x6ec2a0cc70
+    Preparing to register libreactnativeblob_so.  onload_func: 0x6ec2a93ac4
+    Preparing to register libreactnativejni_so.  onload_func: 0x6ec2ab1aac
+    Preparing to register librninstance_so.  onload_func: 0x6ec2acb238
+    Preparing to register libturbomodulejsijni_so.  onload_func: 0x6ec2b45e60
+    Preparing to register libuimanagerjni_so.  onload_func: 0x6ec2b4d378
+    Preparing to register libyoga_so.  onload_func: 0x6ec2b527cc
+    About to register 10 actual methods.
+07-10 07:39:37.034 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libreact_codegen_rnscreens.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.034 27672-27672/? D/jni_lib_merge: Entering merged library JNI_OnLoad.
+    Preparing 11 pre-merged libs (including stub)
+    Preparing to register libfabricjni_so.  onload_func: 0x6ec290eda0
+    Preparing to register libreact_devsupportjni_so.  onload_func: 0x6ec29e09ec
+    Preparing to register libreact_featureflagsjni_so.  onload_func: 0x6ec29e8c88
+    Preparing to register libreact_newarchdefaults_so.  onload_func: 0x6ec2a0cc70
+    Preparing to register libreactnativeblob_so.  onload_func: 0x6ec2a93ac4
+    Preparing to register libreactnativejni_so.  onload_func: 0x6ec2ab1aac
+    Preparing to register librninstance_so.  onload_func: 0x6ec2acb238
+    Preparing to register libturbomodulejsijni_so.  onload_func: 0x6ec2b45e60
+    Preparing to register libuimanagerjni_so.  onload_func: 0x6ec2b4d378
+    Preparing to register libyoga_so.  onload_func: 0x6ec2b527cc
+07-10 07:39:37.035 27672-27672/? D/jni_lib_merge: About to register 10 actual methods.
+07-10 07:39:37.037 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libreact_codegen_safeareacontext.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.039 27672-27672/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libappmodules.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.039 27672-27672/? I/Typeface: updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+07-10 07:39:37.039 2828-2845/? I/ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10309. pid: 27672
+07-10 07:39:37.041 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:37.041 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:37.041 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:37.041 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 129.520874, ch0 178.582382-108.781410-63.201740-38.908089, scale 0.8614, fps 90, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:37.042 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:37.043 27672-27672/? D/AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+07-10 07:39:37.050 27672-27672/? D/CompatChangeReporter: Compat change id reported: 309578419; UID 10309; state: ENABLED
+07-10 07:39:37.059 27672-27672/? W/unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+    ReactHost{0}.attachSurface(surfaceId = 0)
+07-10 07:39:37.059 27672-27698/? W/unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+    ReactHost{0}.getOrCreateReactInstanceTask(): Start
+    ReactHost{0}.getJSBundleLoader()
+    ReactHost{0}.getOrCreateReactContext(): Creating BridgelessReactContext
+    ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+07-10 07:39:37.061 27672-27672/? W/unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+    ReactContext.onHostResume()
+07-10 07:39:37.064 2136-2268/? I/SDM: HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+07-10 07:39:37.068 2136-27693/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+    HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:37.069 27672-27698/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libhermes.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.070 27672-27698/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libhermestooling.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.070 27672-27698/? D/jni_lib_merge: Entering merged library JNI_OnLoad.
+    Preparing 4 pre-merged libs (including stub)
+    Preparing to register libhermes_executor_so.  onload_func: 0x6f6829711c
+    Preparing to register libhermesinstancejni_so.  onload_func: 0x6f6829ea58
+    Preparing to register libjsijniprofiler_so.  onload_func: 0x6f6829f114
+    About to register 3 actual methods.
+07-10 07:39:37.072 2828-2845/? D/CoreBackPreview: Window{c59ad3f u0 com.barbuddy.prototype/com.barbuddy.prototype.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@16196f8, mPriority=0, mIsAnimationCallback=false}
+07-10 07:39:37.074 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux -1.00 (129.52-218.00), pre 15.92, dbv 14058, dc 1, fps 90, chPanel 321.54-203.01-107.35-66.84, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64709-0, TF 64709-0
+07-10 07:39:37.082 27672-27672/? W/libc: Access denied finding property "vendor.display.enable_optimal_refresh_rate"
+07-10 07:39:37.079 27672-27672/? W/buddy.prototype: type=1400 audit(0.0:637037): avc:  denied  { read } for  name="u:object_r:vendor_display_prop:s0" dev="tmpfs" ino=462 scontext=u:r:untrusted_app:s0:c53,c257,c512,c768 tcontext=u:object_r:vendor_display_prop:s0 tclass=file permissive=0
+07-10 07:39:37.082 27672-27690/? I/AdrenoGLES-0: QUALCOMM build                   : a6844907d4, Ie667bba6d9
+    Build Date                       : 12/10/24
+    OpenGL ES Shader Compiler Version: E031.41.03.58
+    Local Branch                     : 
+    Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.13.2.0.11.00.00.855.856
+    Remote Branch                    : NONE
+    Reconstruct Branch               : NOTHING
+    Build Config                     : S P 14.1.4 AArch64
+    Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+    Driver Version                   : 0676.67
+07-10 07:39:37.087 27672-27690/? I/AdrenoGLES-0: PFP: 0x01740158, ME: 0x00000000
+07-10 07:39:37.092 27672-27690/? I/AdrenoUtils: <ReadGpuID:407>: Reading chip ID through GSL
+07-10 07:39:37.095 2239-2239/? I/SurfaceFlinger: track jank, 10351:5,99:5,7181:129
+07-10 07:39:37.096 27672-27690/? I/HWUI: setGrContext nullptr-->validptr
+07-10 07:39:37.148 27672-27698/? I/ExpoModulesCore: ✅ AppContext was initialized
+07-10 07:39:37.155 27672-27698/? W/ReactNativeJNI: Component property map contains multiple entries for 'borderColor'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+    Component property map contains multiple entries for 'borderStyle'. Ensure all calls to convertRawProp use a consistent prefix, name and suffix.
+07-10 07:39:37.159 27672-27698/? W/unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+    ReactHost{0}.getOrCreateReactInstanceTask(): Calling DevSupportManagerBase.onNewReactContextCreated(reactContext)
+    ReactHost{0}.startSurface(surfaceId = 0): Execute
+07-10 07:39:37.169 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 250.490021, ch0 339.304993-200.338669-121.550957-75.588867, scale 0.8614, fps 90, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:37.169 27672-27672/? W/unknown:BridgelessReact: ReactContext.onHostResume()
+07-10 07:39:37.170 27672-27672/? W/unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+07-10 07:39:37.175 27672-27699/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/libexpo-modules-core.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.180 27672-27699/? D/CompatChangeReporter: Compat change id reported: 63938206; UID 10309; state: ENABLED
+07-10 07:39:37.182 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+07-10 07:39:37.183 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+    Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+07-10 07:39:37.184 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+    Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+07-10 07:39:37.185 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+07-10 07:39:37.186 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+07-10 07:39:37.187 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+    Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+07-10 07:39:37.188 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+    Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+    Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewShadowNode
+07-10 07:39:37.189 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+07-10 07:39:37.190 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+    Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+07-10 07:39:37.194 2232-3455/? D/audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+07-10 07:39:37.194 2232-3455/? D/AudioFlinger: checkAudioTracks(flags=0x0) with audio track flags updated to 0x0 on audio output 13
+07-10 07:39:37.194 1971-5215/? D/DlbDapEffectContext: setParam() received parameter EFFECT_PARAM_SET_AUDIO_FLAG
+    setAudioFlags(flag=0x00000000)
+    updateInputFormat() mIsDmsContentProcEnabled: 1, channels: 0x3, mCurrentDevice: 0x2, mAudioFlags: 0x0
+07-10 07:39:37.194 1971-5215/? D/DlbDap2Process: setHTParam: mIsBinauralInput: 0
+    DAP input format is 0x22 with input channel mask 0x3
+07-10 07:39:37.201 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+07-10 07:39:37.202 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+    Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewShadowNode
+07-10 07:39:37.203 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+    Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+    Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+07-10 07:39:37.204 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+    Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+07-10 07:39:37.205 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+07-10 07:39:37.206 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+07-10 07:39:37.207 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+07-10 07:39:37.208 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+07-10 07:39:37.209 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+    Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+07-10 07:39:37.210 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+07-10 07:39:37.211 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+07-10 07:39:37.212 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+07-10 07:39:37.213 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+    Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchShadowNode
+07-10 07:39:37.214 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+    Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+    Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+07-10 07:39:37.215 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+    Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+07-10 07:39:37.216 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+    Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+07-10 07:39:37.217 27672-27699/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+07-10 07:39:37.220 27672-27699/? W/BridgelessReactContext: [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+07-10 07:39:37.222 1971-5215/? D/AHAL: AudioStream: out_update_source_metadata_v7: 1258: track count is 0 for usecase(1: low-latency-playback)
+07-10 07:39:37.222 1971-5215/? V/DlbVolumeListener: effectCommand
+    effectCommand :: Command EFFECT_CMD_DISABLE
+07-10 07:39:37.223 27672-27699/? I/ExpoModulesCore: ✅ JSI interop was installed
+07-10 07:39:37.223 1971-5215/? V/DlbVolumeListener: release(handle=0xb40000711a25cb80)
+07-10 07:39:37.223 2232-3063/? W/audioserver: Binder 0xb40000707a294020 destroyed after setInheritRt before being parceled.
+    Binder 0xb40000707a294020 destroyed after setMinSchedulerPolicy before being parceled.
+07-10 07:39:37.223 2232-3063/? D/APM_AudioPolicyManager: stopOutput() output 13, stream 1, session 1649
+07-10 07:39:37.224 27672-27699/? I/ExpoModulesCore: ✅ Constants were exported
+07-10 07:39:37.246 27672-27699/? D/nativeloader: Load /data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!/lib/arm64-v8a/librnscreens.so using class loader ns clns-7 (caller=/data/app/~~-sRWi07pWbyoai7g76KsCg==/com.barbuddy.prototype-ZE-Le9WUD8bI3xpQVeN0Kw==/base.apk!classes2.dex): ok
+07-10 07:39:37.248 27672-27699/? I/ReactNativeJS: Running "main"
+07-10 07:39:37.253 27672-27699/? V/AsyncStorageExpoMigration: No scoped database found
+07-10 07:39:37.253 27672-27699/? I/ReactNativeJS: Running in MOBILE environment
+    API Base URL: https://dev-api.example.com
+    API Proxy URL: 
+    Cheerios API URL: https://ch-api-dev-ooifid6utq-uc.a.run.app
+    CloudHub API URL: https://ch-api-dev-ooifid6utq-uc.a.run.app
+    Using proxy: false
+07-10 07:39:37.277 2828-2845/? D/PowerManagerService: nativeSetPowerMode ret:false mode:5 enabled:false duration ms: 0
+07-10 07:39:37.277 2828-2845/? W/ActivityTaskManager: Request to remove task ignored for non-existent task 16773
+07-10 07:39:37.278 27672-27699/? I/ReactNativeJS: '[RootLayout] Auth state changed:', { isAuthenticated: false,
+      isLoading: true,
+      hasUser: false,
+      currentSegment: undefined,
+      error: null }
+    [RootLayout] Initial loading, skipping navigation
+    [useAuth] Initializing auth state check
+    [useAuth] Initializing global auth state reference
+07-10 07:39:37.278 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:37.279 2150-6080/? E/ANDR-PERF-LM: PrefAppsDB: get_total_pkg_bindapp_count() 663: App = (com.barbuddy.prototype) not found in LatData DB.
+07-10 07:39:37.282 2828-2852/? I/MotoPerfManagerService: handleAppStart 10309:com.barbuddy.prototype cold -1 57 54 67 379
+07-10 07:39:37.287 27672-27699/? E/ReactNativeJS: TypeError: undefined is not a function
+    
+    This error is located at:
+        at AuthProvider (address at index.android.bundle:1:1184472)
+        at RootLayout (address at index.android.bundle:1:2020795)
+        at Suspense (<anonymous>)
+        at Route (address at index.android.bundle:1:1069755)
+        at BaseRoute (address at index.android.bundle:1:1073508)
+        at StaticContainer (address at index.android.bundle:1:955984)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at SceneView (address at index.android.bundle:1:953515)
+        at PreventRemoveProvider (address at index.android.bundle:1:932997)
+        at NavigationStateListenerProvider (address at index.android.bundle:1:962601)
+        at NavigationContent (address at index.android.bundle:1:949881)
+        at anonymous (address at index.android.bundle:1:949784)
+        at Content (address at index.android.bundle:1:1175675)
+        at RNCSafeAreaProvider (<anonymous>)
+        at SafeAreaProvider (address at index.android.bundle:1:1026736)
+        at wrapper (address at index.android.bundle:1:1174747)
+        at ThemeProvider (address at index.android.bundle:1:900863)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at BaseNavigationContainer (address at index.android.bundle:1:876440)
+        at NavigationContainerInner (address at index.android.bundle:1:1177480)
+        at ContextNavigator (address at index.android.bundle:1:1174945)
+        at ExpoRoot (address at index.android.bundle:1:1174654)
+        at App (<anonymous>)
+        at RCTView (<anonymous>)
+        at anonymous (address at index.android.bundle:1:499711)
+        at AppContainer (address at index.android.bundle:1:498912), js engine: hermes
+07-10 07:39:37.287 2828-2852/? I/ActivityTaskManager: Displayed com.barbuddy.prototype/.MainActivity for user 0: +379ms
+07-10 07:39:37.291 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:37.292 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:37.292 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:37.300 27672-27701/? W/unknown:BridgelessReact: ReactHost{0}.handleHostException(message = "TypeError: undefined is not a function
+    
+    This error is located at:
+        at AuthProvider (address at index.android.bundle:1:1184472)
+        at RootLayout (address at index.android.bundle:1:2020795)
+        at Suspense (<anonymous>)
+        at Route (address at index.android.bundle:1:1069755)
+        at BaseRoute (address at index.android.bundle:1:1073508)
+        at StaticContainer (address at index.android.bundle:1:955984)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at SceneView (address at index.android.bundle:1:953515)
+        at PreventRemoveProvider (address at index.android.bundle:1:932997)
+        at NavigationStateListenerProvider (address at index.android.bundle:1:962601)
+        at NavigationContent (address at index.android.bundle:1:949881)
+        at anonymous (address at index.android.bundle:1:949784)
+        at Content (address at index.android.bundle:1:1175675)
+        at RNCSafeAreaProvider (<anonymous>)
+        at SafeAreaProvider (address at index.android.bundle:1:1026736)
+        at wrapper (address at index.android.bundle:1:1174747)
+        at ThemeProvider (address at index.android.bundle:1:900863)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at BaseNavigationContainer (address at index.android.bundle:1:876440)
+        at NavigationContainerInner (address at index.android.bundle:1:1177480)
+        at ContextNavigator (address at index.android.bundle:1:1174945)
+        at ExpoRoot (address at index.android.bundle:1:1174654)
+        at App (<anonymous>)
+        at RCTView (<anonymous>)
+        at anonymous (address at index.android.bundle:1:499711)
+        at AppContainer (address at index.android.bundle:1:498912), js engine: hermes, stack:
+    anonymous@1:1184764
+    commitHookEffectListMount@1:271942
+    recursivelyTraverseReconnectPassiveEffects@1:279146
+    recursivelyTraverseReconnectPassiveEffects@1:279137
+    commitPassiveMountOnFiber@1:278069
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278485
+    flushPassiveEffects@1:287183
+    anonymous@1:286895
+    ")
+07-10 07:39:37.300 27672-27701/? E/AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+    Process: com.barbuddy.prototype, PID: 27672
+    com.facebook.react.common.JavascriptException: TypeError: undefined is not a function
+    
+    This error is located at:
+        at AuthProvider (address at index.android.bundle:1:1184472)
+        at RootLayout (address at index.android.bundle:1:2020795)
+        at Suspense (<anonymous>)
+        at Route (address at index.android.bundle:1:1069755)
+        at BaseRoute (address at index.android.bundle:1:1073508)
+        at StaticContainer (address at index.android.bundle:1:955984)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at SceneView (address at index.android.bundle:1:953515)
+        at PreventRemoveProvider (address at index.android.bundle:1:932997)
+        at NavigationStateListenerProvider (address at index.android.bundle:1:962601)
+        at NavigationContent (address at index.android.bundle:1:949881)
+        at anonymous (address at index.android.bundle:1:949784)
+        at Content (address at index.android.bundle:1:1175675)
+        at RNCSafeAreaProvider (<anonymous>)
+        at SafeAreaProvider (address at index.android.bundle:1:1026736)
+        at wrapper (address at index.android.bundle:1:1174747)
+        at ThemeProvider (address at index.android.bundle:1:900863)
+        at EnsureSingleNavigator (address at index.android.bundle:1:897633)
+        at BaseNavigationContainer (address at index.android.bundle:1:876440)
+        at NavigationContainerInner (address at index.android.bundle:1:1177480)
+        at ContextNavigator (address at index.android.bundle:1:1174945)
+        at ExpoRoot (address at index.android.bundle:1:1174654)
+        at App (<anonymous>)
+        at RCTView (<anonymous>)
+        at anonymous (address at index.android.bundle:1:499711)
+        at AppContainer (address at index.android.bundle:1:498912), js engine: hermes, stack:
+    anonymous@1:1184764
+    commitHookEffectListMount@1:271942
+    recursivelyTraverseReconnectPassiveEffects@1:279146
+    recursivelyTraverseReconnectPassiveEffects@1:279137
+    commitPassiveMountOnFiber@1:278069
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278626
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:277890
+    recursivelyTraversePassiveMountEffects@1:277745
+    commitPassiveMountOnFiber@1:278485
+    flushPassiveEffects@1:287183
+    anonymous@1:286895
+    
+        at com.facebook.react.modules.core.ExceptionsManagerModule.reportException(ExceptionsManagerModule.kt:52)
+        at com.facebook.jni.NativeRunnable.run(Native Method)
+        at android.os.Handler.handleCallback(Handler.java:1001)
+        at android.os.Handler.dispatchMessage(Handler.java:105)
+        at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:20)
+        at android.os.Looper.loopOnce(Looper.java:268)
+        at android.os.Looper.loop(Looper.java:384)
+        at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$1(MessageQueueThreadImpl.kt:175)
+        at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$ldnZnqelhYFctGaUKkOKYj5rxo4(Unknown Source:0)
+        at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+        at java.lang.Thread.run(Thread.java:1119)
+07-10 07:39:37.302 2828-27718/? I/DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+07-10 07:39:37.303 2828-2845/? W/ActivityTaskManager:   Force finishing activity com.barbuddy.prototype/.MainActivity
+07-10 07:39:37.303 4207-4248/? V/WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4304) android.os.BinderProxy@878c613@0
+07-10 07:39:37.304 2828-2845/? D/ActivityTrigger: ActivityTrigger activityPauseTrigger 
+07-10 07:39:37.305 2828-2853/? I/ActivityManager: 10309 handleShowAppErrorUi: shouldThottle=false,showFirstCrash=false,repeating=false,shouldForceShowError=false
+07-10 07:39:37.306 2828-3907/? I/ImeTracker: com.barbuddy.prototype:ffa0af8f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+    com.barbuddy.prototype:ffa0af8f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-10 07:39:37.306 4207-4248/? V/WindowManagerShell: Track 0 became idle
+    All active transition animations finished
+    Transition requested (#4305): android.os.BinderProxy@4fa64ae TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 4305 }
+07-10 07:39:37.307 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:37.307 27672-27701/? I/Process: Sending signal. PID: 27672 SIG: 9
+07-10 07:39:37.308 2828-2852/? V/WindowManager: Finish Transition (#4304): created at 07-10 07:39:36.907 collect-started=0.069ms request-sent=9.024ms started=9.779ms ready=44.346ms sent=46.636ms finished=397.851ms
+07-10 07:39:37.308 2136-2268/? I/SDM: HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+07-10 07:39:37.310 6510-6510/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+07-10 07:39:37.311 2828-5010/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:37.311 15440-15440/? I/TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=16579, baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.microsoft.launcher/.Launcher }
+07-10 07:39:37.311 6510-6510/? I/Module: DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-10 07:39:37.311 6510-6510/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.barbuddy.prototype, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-10 07:39:37.312 2828-4568/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:37.312 6510-6510/? I/Module: DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-10 07:39:37.312 2828-4377/? W/PackageConfigPersister: App-specific configuration not found for packageName: com.barbuddy.prototype and userId: 0
+07-10 07:39:37.312 2136-27716/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+    HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:37.316 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 30.68 (250.49-219.81), pre -1.00, dbv 14058, dc 1, fps 90, chPanel 324.62-205.00-108.31-67.51, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64710-0, TF 64710-0
+07-10 07:39:37.328 2828-5001/? I/ImeTracker: com.barbuddy.prototype:3c4ad01e: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+    com.barbuddy.prototype:3c4ad01e: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-10 07:39:37.329 2239-2239/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-10 07:39:37.329 2828-4377/? I/ActivityManager: appDiedLocked: app=ProcessRecord{d6b8924 27672:com.barbuddy.prototype/u0a309} thread=android.os.BinderProxy@c158ea1 fromBinderDied=true isKilledByAm=false reason=null
+    Process com.barbuddy.prototype (pid 27672) has died: fg  TOP 
+07-10 07:39:37.329 2828-4998/? I/WindowManager: WIN DEATH: Window{c59ad3f u0 com.barbuddy.prototype/com.barbuddy.prototype.MainActivity}
+07-10 07:39:37.329 2828-4998/? W/InputManager-JNI: Input channel object 'c59ad3f com.barbuddy.prototype/com.barbuddy.prototype.MainActivity (client)' was disposed without first being removed with the input manager!
+07-10 07:39:37.329 2828-2887/? I/libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10309/pid_27672
+07-10 07:39:37.329 1865-1865/? I/Zygote: Process 27672 exited due to signal 9 (Killed)
+07-10 07:39:37.330 2828-2887/? W/libprocessgroup: RemoveCgroup: /dev/memcg/apps/uid_10309/pid_27672 does not exist.
+07-10 07:39:37.332 2828-2855/? V/WindowManager: Unknown focus tokens, dropping reportFocusChanged
+07-10 07:39:37.332 2828-4377/? D/RestartModeController: markWaitRestartAppIsSuicided null processName=com.barbuddy.prototype
+07-10 07:39:37.332 2828-2853/? D/DisplayManagerService: Drop pending events for gone uid 10309
+07-10 07:39:37.333 2828-4377/? D/ActivityTaskManager: handleAppDied: uid=10309,diedCount=1,lastDiedTime=539559773,forceStopUids=false
+07-10 07:39:37.334 6655-6668/? D/ForegroundUtils: UID: 10309 deleted.
+07-10 07:39:37.335 5505-5505/? D/GameMode: isScreenUnlocked: true
+07-10 07:39:37.335 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:37.335 1152-1152/? W/lowmemorykiller: Failed to open /proc/27672/oom_score_adj; errno=2: process 27672 might have been killed
+07-10 07:39:37.335 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+07-10 07:39:37.336 2828-4004/? D/InetDiagMessage: Destroyed live tcp sockets for uids={10309} in 3ms
+    Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:37.337 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+    Destroyed live tcp sockets for uids={20309} in 1ms
+07-10 07:39:37.341 4207-8589/? V/WindowManagerShell: onTransitionReady(transaction=12146167780198)
+07-10 07:39:37.341 4207-4248/? V/WindowManagerShell: onTransitionReady (#4305) android.os.BinderProxy@4fa64ae: {id=4305 t=CLOSE f=0x10 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@30c1dba} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP pTaskId=-1 leash=Surface(name=Task=1)/@0x5de124f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@513846b} m=CLOSE f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0x13c0ddc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+07-10 07:39:37.342 4207-4248/? V/WindowManagerShell: Playing animation for (#4305) android.os.BinderProxy@4fa64ae@1
+     try handler com.android.wm.shell.transition.DefaultMixedHandler@a6640fc
+     try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@43ea385
+     try handler com.android.wm.shell.pip.PipTransition@bf124b3
+     try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@44d5a70
+     try handler com.android.wm.shell.recents.RecentsTransitionHandler@91dd1e9
+07-10 07:39:37.342 4207-4248/? V/ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+07-10 07:39:37.342 4207-4248/? V/WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@add8e6e
+     try handler com.android.wm.shell.transition.RemoteTransitionHandler@8cf590f
+    Transition doesn't have explicit remote, search filters for match for {id=4305 t=CLOSE f=0x10 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@30c1dba} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP pTaskId=-1 leash=Surface(name=Task=1)/@0x5de124f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@513846b} m=CLOSE f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0x13c0ddc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+     Delegate animation for (#4305) to null
+     try handler com.android.wm.shell.transition.DefaultTransitionHandler@e05ad9c
+    start default transition animation, info = {id=4305 t=CLOSE f=0x10 trk=1 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@30c1dba} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP pTaskId=-1 leash=Surface(name=Task=1)/@0x5de124f sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@513846b} m=CLOSE f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0x13c0ddc sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+    loadAnimation: anim=android.view.animation.AnimationSet@16a2bc8 animAttr=0x11 type=CLOSE isEntrance=false
+    loadAnimation: anim=android.view.animation.AnimationSet@83bc461 animAttr=0x10 type=CLOSE isEntrance=true
+07-10 07:39:37.343 4207-4248/? V/WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@e05ad9c
+07-10 07:39:37.349 2828-2852/? V/WindowManager: Sent Transition (#4305) createdAt=07-10 07:39:37.303 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 16, debugId = 4305 }
+        startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+07-10 07:39:37.349 2828-2855/? W/ActivityManager: setHasOverlayUi called on unknown pid: 27672
+07-10 07:39:37.349 2828-2852/? V/WindowManager:     info={id=4305 t=CLOSE f=0x10 trk=1 r=[0@Point(0, 0)] c=[
+            {WCT{RemoteToken{eac1484 Task{d76d964 #1 type=undefined}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP pTaskId=-1 leash=Surface(name=Task=1)/@0x3744120 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+            {WCT{RemoteToken{29ede16 Task{68237d5 #16774 type=standard A=10309:com.barbuddy.prototype}}} m=CLOSE f=NONE pTaskId=-1 leash=Surface(name=Task=16774)/@0xe1d653e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+        ]}
+07-10 07:39:37.353 5505-5505/? D/GameMode: isScreenUnlocked: true
+07-10 07:39:37.354 2828-4568/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:37.354 5505-5505/? D/GameMode: exiting game mode
+    isFeatureSupported: true
+07-10 07:39:37.355 5505-5505/? D/GameMode: isFeatureSupported: true
+    reset : false
+07-10 07:39:37.356 5505-5505/? D/GameMode: isFeatureSupported: true
+07-10 07:39:37.360 4418-4418/? D/GameModeDetector: notifyGameModeStatusValue, value=false
+07-10 07:39:37.360 4418-4418/? D/DaxService: sendGameModeIntent, state=false
+07-10 07:39:37.368 25904-25919/? D/MotoDolbyUI: getDeviceType, active device is 0x2
+    getDeviceType, active device is 0x2
+07-10 07:39:37.368 2828-3907/? I/ImeTracker: com.microsoft.launcher:db6049f: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+    com.microsoft.launcher:db6049f: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-10 07:39:37.370 1971-5215/? D/DlbDapEffectContext: DapEffectContext[0xb40000704a25e5d0] getDapParameter() outval size = 12, ret = 0
+07-10 07:39:37.370 6510-6510/? I/GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+07-10 07:39:37.371 6510-6510/? I/Module: DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+07-10 07:39:37.371 6510-6510/? I/GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.microsoft.launcher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-10 07:39:37.371 1971-5215/? D/DlbDapEffectContext: DapEffectContext[0xb40000704a25e5d0] getDapParameter() outval size = 12, ret = 0
+07-10 07:39:37.371 6510-6510/? I/Module: DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+07-10 07:39:37.372 2828-7570/? W/PackageConfigPersister: App-specific configuration not found for packageName: com.microsoft.launcher and userId: 0
+07-10 07:39:37.372 4418-13139/? D/DolbyAudioEffectHelper: getDolbyStatus enabled=true profile=3
+07-10 07:39:37.372 4418-13139/? D/DolbyProvider: true, profile=3
+07-10 07:39:37.494 4207-4318/? D/Surface: Surface::disconnect
+07-10 07:39:37.494 4207-4318/? D/BufferQueueProducer: [Splash Screen com.barbuddy.prototype#55162(BLAST Consumer)pid:4207](id:106f00000dba,api:1,p:4207,c:4207) disconnect: api 1
+07-10 07:39:37.501 4207-4307/? W/WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bb73e67
+07-10 07:39:37.502 2828-4377/? D/CoreBackPreview: Window{242bc8e u0 Splash Screen com.barbuddy.prototype EXITING}: Setting back callback null
+07-10 07:39:37.503 2828-7570/? W/InputManager-JNI: Input channel object '242bc8e Splash Screen com.barbuddy.prototype (client)' was disposed without first being removed with the input manager!
+07-10 07:39:37.529 2239-2239/? E/BpTransactionCompletedListener: Failed to transact (-32)
+07-10 07:39:37.585 4207-4248/? V/WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4305) android.os.BinderProxy@4fa64ae@1
+07-10 07:39:37.588 2828-2852/? V/WindowManager: Finish Transition (#4305): created at 07-10 07:39:37.303 collect-started=0.013ms request-sent=0.046ms started=3.337ms ready=32.066ms sent=35.298ms finished=284.878ms
+07-10 07:39:37.599 4207-4248/? V/WindowManagerShell: Track 1 became idle
+07-10 07:39:37.599 2828-3929/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:37.599 4207-4248/? V/WindowManagerShell: All active transition animations finished
+07-10 07:39:37.600 7344-18626/? W/MotoFreeForm: [FreeFormController] onTaskRemoved 16774
+    [FreeFormController] onTaskRemoved 16774
+07-10 07:39:37.602 4207-4248/? E/SingleInstanceRemoteListener: Failed remote call on null listener
+07-10 07:39:37.602 2828-4377/? W/UserManagerService: Requested status bar icon for non-badged user 0
+07-10 07:39:37.603 15440-15440/? I/TopTaskTracker: onTaskRemoved: taskId=16774
+07-10 07:39:37.604 15440-15440/? I/TopTaskTracker: onTaskRemoved: taskId=16774
+07-10 07:39:37.645 2828-3997/? D/WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+07-10 07:39:37.650 2828-12526/? I/MotoWifiScorer: onWifiUsabilityStats, seqNum: 1179, isSameBssidAndFreq: true, RSSI: -48, isThroughputSufficient: true, LinkSpeed: 650 Mbps, RxLinkSpeed: 650 Mbps
+    updateWifiUsabilityStats, seqNum: 1179, RSSI: -48, isThroughputSufficient: true, LinkSpeed: 650 Mbps, RxLinkSpeed: 650 Mbps
+    updateWifiUsabilityStats, Duration: 3019, Rx Good: 0, Tx Good: 0, Tx Bad: 0 ( 0 % ), Tx Retry: 0 ( 0 % )
+    onWifiUsabilityStats, FinalScore: 60, RssiBasedScore: 60, LinkBonus: 0, TcpBonus: 0
+07-10 07:39:37.655 2828-12526/? I/MotoWifiScorer: onWifiUsabilityStats, WiFi Usable: true
+07-10 07:39:37.658 2828-4004/? D/ConnectivityService: NetReassign [no changes] [c 1] [a 0] [i 2]
+07-10 07:39:37.668 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:37.669 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 17.553446, ch0 23.823387-15.461947-8.242582-4.547631, scale 0.8614, fps 90, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:37.670 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:37.671 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:37.702 2136-27720/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+    HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:37.714 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 16.35 (17.55-1.20), pre 30.68, dbv 14058, dc 1, fps 90, chPanel 1.66-0.85-0.45-0.23, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64711-0, TF 64711-0
+07-10 07:39:37.871 2239-2559/? I/Scheduler: applyPolicy: UpdateRefreshRate 90 to 60 of group 0: [touch=0:0 touchBoost=0 scroll=0:0 idle=1:1] for display 4630947043778501763
+07-10 07:39:37.871 2239-2559/? D/DisplayModeController: setDesiredMode 4630947043778501763 {mode={fps=60.00 Hz, modePtr={id=0, vsyncRate=60.00 Hz, peakRefreshRate=60.00 Hz}}, emitEvent=false, force=false}
+07-10 07:39:37.873 2239-2239/? I/SurfaceFlinger: initiateDisplayModeChanges changing active mode from 3(90.00 Hz:0) to 0(60.00 Hz:0) for display 4630947043778501763
+    initiateDisplayModeChanges active mode changed to 0(60.00 Hz) for display 4630947043778501763. mBrightnessDimingCnt=0
+07-10 07:39:37.873 2136-2529/? W/SDM: HWDeviceDRM::GetSupportedBitClkRate: Requested rate not supported: 1102000000
+07-10 07:39:37.874 2136-2529/? I/SDM: HWDeviceDRM::UpdateMixerAttributes: Mixer WxH 1080x2400-0 for Peripheral
+    HWCDisplay::SubmitDisplayConfig: Active configuration changed from config 3 to 0
+07-10 07:39:37.874 2239-2536/? D/VSyncReactor: 4630947043778501763: confirming period 11->16(cnt1)
+07-10 07:39:37.876 2136-2268/? I/SDM: HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+07-10 07:39:37.881 2239-2239/? I/SurfaceFlinger: initiateDisplayModeChanges changing active mode from 0(60.00 Hz:0) to 0(60.00 Hz:0) for display 4630947043778501763
+07-10 07:39:37.886 2239-2536/? D/VSyncReactor: 4630947043778501763: period 16 confirmed(cnt1)
+07-10 07:39:38.190 2011-4145/? I/WifiHAL: event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+07-10 07:39:38.190 3090-3090/? I/cnss-daemon: nl80211 response handler invoked
+07-10 07:39:38.191 3090-3090/? I/cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+07-10 07:39:38.191 3201-4146/? D/LOWI-9.0.1.65: [LOWI-Scan] wait_event:Wait done with Cmd 103
+    [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+07-10 07:39:38.405 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:38.406 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 32.572609, ch0 40.029491-25.451233-15.394766-8.330434, scale 0.8614, fps 60, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:38.407 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:38.407 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:38.435 2136-27731/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+07-10 07:39:38.436 2136-27731/? I/SDM: HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:38.447 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 31.37 (32.57-1.20), pre 16.35, dbv 14058, dc 1, fps 60, chPanel 1.66-0.85-0.45-0.23, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64712-0, TF 64712-0
+07-10 07:39:38.688 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:38.689 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:38.689 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:38.690 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 52.196278, ch0 64.948448-41.817539-24.552042-13.126118, scale 0.8614, fps 60, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:38.719 2136-27734/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+    HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:38.735 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 50.99 (52.20-1.20), pre 31.37, dbv 14058, dc 1, fps 60, chPanel 1.66-0.85-0.45-0.23, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64713-0, TF 64713-0
+07-10 07:39:38.879 2828-4404/? I/DataStallMonitor: TcpDataFromSnmp:0,0,3,0
+07-10 07:39:38.963 2150-2180/? E/ANDR-PERF-UTIL: ANDR-PERF-UTIL: change_node_val() 319: Failed to update node /proc/sys/walt/sched_per_task_boost with value 27672 0
+07-10 07:39:38.963 2150-2180/? E/ANDR-PERF-OPTSHANDLER: ANDR-PERF-OPTSHANDLER: sched_reset_task_boost() 3458: can't reset task 27672
+07-10 07:39:38.963 2150-2180/? E/ANDR-PERF-RESOURCEQS: ANDR-PERF-RESOURCEQS: RemoveAndApply() 380: Failed to reset optimization [3, 32]
+07-10 07:39:38.982 2828-3877/? D/ActivityManager: freezing 23433 com.motorola.coresettingsext, reason = oom_cached
+07-10 07:39:38.985 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:38.986 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+    Destroyed live tcp sockets for uids={10285} in 1ms
+07-10 07:39:39.155 27495-27500/? I/BpBinder: onLastStrongRef automatically unlinking death recipients: 
+07-10 07:39:39.158 27495-27501/? W/System: A resource failed to call close. 
+07-10 07:39:39.161 27495-27501/? W/fb4a.27a: AsyncDrawable with url https://lookaside.facebook.com/ras/v2/?id=AQAEK0GLr3HF wasn't hidden before it was GC'd. Please call setVisible(false, ___ ) in View.onDetachedFromWindow()
+    AsyncDrawable with url https://lookaside.facebook.com/ras/v2/?id=AQAL4Sw8b3I2 wasn't hidden before it was GC'd. Please call setVisible(false, ___ ) in View.onDetachedFromWindow()
+    AsyncDrawable with url https://lookaside.facebook.com/ras/v2/?id=AQABIxlS9QCp wasn't hidden before it was GC'd. Please call setVisible(false, ___ ) in View.onDetachedFromWindow()
+    AsyncDrawable with url https://lookaside.facebook.com/ras/v2/?id=AQABv60ZiHcT wasn't hidden before it was GC'd. Please call setVisible(false, ___ ) in View.onDetachedFromWindow()
+07-10 07:39:39.188 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:39.189 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:39.189 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:39.190 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 27.108683, ch0 29.518263-24.428017-13.141622-5.343467, scale 0.8614, fps 60, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:39.219 2136-27737/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+07-10 07:39:39.220 2136-27737/? I/SDM: HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:39.235 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 25.91 (27.11-1.20), pre 50.99, dbv 14058, dc 1, fps 60, chPanel 1.66-0.85-0.45-0.23, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64714-0, TF 64714-0
+07-10 07:39:39.235 1966-10130/? E/sensors-hal: handle_sns_client_event:63, mot_disprot_event: now=761109208863890 ts=761109157915262, type=16, status=3
+07-10 07:39:39.289 2828-2855/? W/ActivityTaskManager: Activity transferring splash screen timeout for ActivityRecord{4ede5bf u0 com.barbuddy.prototype/.MainActivity t-1 f}} state 0
+07-10 07:39:39.292 2828-3877/? D/ActivityManager: freezing 27495 com.facebook.katana, reason = oom_cached
+07-10 07:39:39.296 2828-4004/? D/InetDiagMessage: Destroyed 3 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:39.297 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+    Destroyed live tcp sockets for uids={10350} in 1ms
+07-10 07:39:39.298 1971-5215/? D/AHAL: AudioStream: astream_out_standby: 875: enter: stream (0xb400006fea266130), usecase(1: low-latency-playback)
+    Standby: 2452: Enter
+07-10 07:39:39.298 1971-5215/? I/PAL: API: pal_stream_stop: 363: Enter. Stream handle :0xb400006fca25b410K
+07-10 07:39:39.298 1971-5215/? D/AGM: graph: graph_stop: 924 entry graph_handle 0x247534c
+07-10 07:39:39.304 1971-5215/? D/AGM: graph: graph_stop: 971 exit, ret 0
+07-10 07:39:39.305 1971-5215/? I/PAL: ResourceManager: voteSleepMonitor: 1821: Unvoting done for nlpi use case, lpi votes 0, nlpi votes : 1
+07-10 07:39:39.305 1971-5215/? I/PAL: SpeakerProtection: spkrProtSetSpkrStatus: 256: Speaker used last time 761109
+07-10 07:39:39.305 1971-5215/? D/AGM: graph: graph_stop: 924 entry graph_handle 0x147534c
+07-10 07:39:39.306 1971-5215/? D/AGM: graph: graph_stop: 971 exit, ret 0
+07-10 07:39:39.307 1971-5215/? I/AGM: API: agm_session_aif_connect: 652 disconnecting aifid:10 with session id=121
+07-10 07:39:39.307 1971-5215/? D/AGM: graph: graph_stop: 924 entry graph_handle 0x147534c
+07-10 07:39:39.307 1971-5215/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:1
+    metadata_print: 301 key:0xa3000000, value:0xa3000009(VI_TX)
+    metadata_print: 305 
+    CKV count:1
+    metadata_print: 308 key:0xbf000000, value:0x2 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:1
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:39.308 1971-5215/? D/AGM: graph: graph_stop: 971 exit, ret 0
+07-10 07:39:39.309 1971-5215/? I/AGM: device: device_set_metadata: 707 Setting device metadata for CODEC_DMA-LPAIF_WSA-TX-0
+07-10 07:39:39.309 1971-5215/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:0
+    metadata_print: 305 
+    CKV count:0
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:2
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 318 0x5 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:39.309 1971-5215/? I/PAL: ResourceManager: freeFrontEndIds: 6772: stream type 1, freeing 121
+07-10 07:39:39.309 1971-5215/? D/AGM: session: session_close: 1268 enter
+07-10 07:39:39.309 1971-5215/? D/AGM: graph: graph_close: 760 entry handle 0x147534c
+    graph_close: 780 exit, ret 0
+07-10 07:39:39.309 1971-5215/? D/AGM: session: session_close: 1294 aif_obj is 0xb40000714a26a340
+    aif_free: 220 enter aif_obj is 0xb40000714a26a340
+    aif_free: 224 exit
+    session_close: 1321 exit, ret 0
+07-10 07:39:39.310 1971-5215/? I/PAL: API: pal_stream_stop: 399: Exit. status 0
+    pal_stream_close: 250: Enter. Stream handle :0xb400006fca25b410K
+07-10 07:39:39.310 1971-5215/? I/AGM: API: agm_session_aif_connect: 652 disconnecting aifid:7 with session id=117
+07-10 07:39:39.310 1971-5215/? D/AGM: graph: graph_stop: 924 entry graph_handle 0x247534c
+07-10 07:39:39.310 1971-5215/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:4
+    metadata_print: 301 key:0xa1000000, value:0xa100000e(PCM_LL_PLAYBACK)
+    metadata_print: 301 key:0xab000000, value:0x1( )
+    metadata_print: 301 key:0xa2000000, value:0xa2000001(SPEAKER)
+    metadata_print: 301 key:0xac000000, value:0xac000002(DEVICEPP_RX_AUDIO_MBDRC)
+    metadata_print: 305 
+    CKV count:4
+    metadata_print: 308 key:0xa4000000, value:0x0 
+    metadata_print: 308 key:0xd2000000, value:0x0 
+    metadata_print: 308 key:0xa9000000, value:0x2 
+    metadata_print: 308 key:0xbe000000, value:0x3 
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:3
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x3 
+    metadata_print: 318 0x2 
+    metadata_print: 318 0x5 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:39.313 1971-5215/? D/AGM: graph: graph_stop: 971 exit, ret 0
+07-10 07:39:39.322 1971-5215/? I/AGM: device: device_set_metadata: 707 Setting device metadata for CODEC_DMA-LPAIF_WSA-RX-0
+07-10 07:39:39.322 1971-5215/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:0
+    metadata_print: 305 
+    CKV count:0
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:2
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x2 
+    metadata_print: 318 0x5 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:39.322 1971-5215/? I/AGM: session: session_obj_set_sess_aif_metadata: 1777 Setting metadata for sess_id 117, aif id 7
+07-10 07:39:39.322 1971-5215/? D/AGM: metadata: metadata_print: 297 *************************Metadata*************************
+    metadata_print: 298 GKV size:0
+    metadata_print: 305 
+    CKV count:0
+    metadata_print: 310 
+    metadata_print: 312 Property ID:134217744
+    metadata_print: 313 property count:1
+    metadata_print: 316 Property Values: 
+    metadata_print: 318 0x3 
+    metadata_print: 320 
+    metadata_print: 321 ****************Metadata Done***************************
+07-10 07:39:39.322 1971-5215/? I/AGM: session: session_obj_set_sess_aif_metadata: 1782 Exit
+07-10 07:39:39.322 1971-5215/? D/AGM: session: session_close: 1268 enter
+07-10 07:39:39.323 1971-5215/? D/AGM: graph: graph_close: 760 entry handle 0x247534c
+07-10 07:39:39.324 1971-5215/? D/AGM: graph: graph_close: 780 exit, ret 0
+07-10 07:39:39.324 1971-5215/? D/AGM: session: session_close: 1294 aif_obj is 0xb40000714a26b030
+    aif_free: 220 enter aif_obj is 0xb40000714a26b030
+    aif_free: 224 exit
+    session_close: 1321 exit, ret 0
+07-10 07:39:39.324 1971-5215/? I/PAL: ResourceManager: freeFrontEndIds: 6772: stream type 1, freeing 117
+07-10 07:39:39.324 1971-5215/? I/PAL: Device: close: 489: Enter. deviceCount 1 for device id 3 (PAL_DEVICE_OUT_SPEAKER)
+07-10 07:39:39.325 1971-5215/? I/PAL: Device: close: 503: Exit. deviceCount 0 for device id 3 (PAL_DEVICE_OUT_SPEAKER), exit status 0
+07-10 07:39:39.325 1971-5215/? I/PAL: ResourceManager: GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+    GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+    GetConcurrencyInfo: 5021: stream type 1 Tx conc 0, Rx conc 0, concurrency allowed
+    deregisterStream: 3262: stream type 1
+    getActiveStream_l: 5666: no active streams found for device 2 (PAL_DEVICE_OUT_HANDSET) ret -2
+    getSharedBEActiveStreamDevs: 6933: got dev 2 (PAL_DEVICE_OUT_HANDSET) active streams on dev is 0
+    getActiveStream_l: 5666: no active streams found for device 3 (PAL_DEVICE_OUT_SPEAKER) ret -2
+    getSharedBEActiveStreamDevs: 6933: got dev 3 (PAL_DEVICE_OUT_SPEAKER) active streams on dev is 0
+07-10 07:39:39.325 1971-5215/? I/PAL: API: pal_stream_close: 286: Exit. status 0
+07-10 07:39:39.325 1971-5215/? D/AHAL: AudioStream: Standby: 2534: Exit ret: 0
+07-10 07:39:39.325 1971-5215/? D/AHAL: ext_speaker: audio_extn_extspk_update: 152: devices 0x0
+    audio_extn_extspk_update: 167: exit
+07-10 07:39:39.325 1971-5215/? D/AHAL: AudioStream: astream_out_standby: 887: Exit ret: 0
+07-10 07:39:39.327 2828-3929/? D/PowerManagerService: nativeReleaseSuspendBlocker name:PowerManagerService.WakeLocks duration ms: 0
+07-10 07:39:39.622 2075-2075/? D/motorola.hardware.sensorext-service: handle id:9 wxh:1088x2400 uwxuh:1080x2400 size: 10444800 fd:11 fd_meta:12 flags:0x228 usage:0x33  format:0x1 layer_count: 1 reserved_size = 0
+07-10 07:39:39.623 1966-3819/? D/slpi-TCS3720: ALS_REPORT lux 16.592731, ch0 21.105145-15.017519-7.855000-3.865487, scale 0.8614, fps 60, client 2
+    PRX_OC info Far, Total 101, pdata 158, offset -89 step 0.63, ore 0:0 step 21.00, TH_H 308, TH_L 4, client 0
+07-10 07:39:39.624 2136-2529/? W/SDM: HWCSession::GetDisplayIndex: Display index not found for display 3.
+07-10 07:39:39.624 2136-2529/? I/SDM: HWCSession::SetCWBOutputBuffer: CWB config passed by cwb_client : tappoint 1  CWB_ROI : (454.000000 184.000000 534.000000 264.000000)
+07-10 07:39:39.652 2136-27749/? I/SDM: HWCSession::NotifyCWBStatus: Notify the client about buffer status 0.
+    HWCSession::ProcessCWBStatus: CWB queue is empty. display_index: 0
+07-10 07:39:39.663 2075-2075/? D/SENSOREXT_ALS_COMP: FrontLight: ReportLux 15.39 (16.59-1.20), pre 25.91, dbv 14058, dc 1, fps 60, chPanel 1.66-0.85-0.45-0.23, facCal:lux_s 0.86 cha_s 1.00-1.00-1.00-1.00, RunInfo: DPB 64715-0, TF 64715-0
+07-10 07:39:39.726 1966-3819/? I/slpi-mot_tap: cor_sums, 72.2, 80.0, 83.6,  0.0, sigzm, 10.6, pk,  8.6, pcor, 83.6, slps, 18.0, 52.0, -59.6, *ang,  12.6, tn,  9.6, Tap 26 22222222222222222222222222222222222222222
+07-10 07:39:39.846 2828-3877/? D/ActivityManager: freezing 18582 com.google.android.gms, reason = oom_cached
+07-10 07:39:39.852 2828-3877/? D/ActivityManager: freezing 21597 com.google.android.gms.unstable, reason = oom_cached
+07-10 07:39:39.951 3078-3844/? D/BufferPoolAccessor2.0: evictor expired: 1, evicted: 0
+07-10 07:39:39.954 2828-3882/? D/PowerManagerService: nativeAcquireSuspendBlocker name:PowerManagerService.WakeLocks duration ms: 3
+07-10 07:39:39.961 2828-2874/? V/GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c8084ee9 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+07-10 07:39:39.966 2828-3824/? D/ActivityManager: unfreezing ProcessRecord{cf64c02 27495:com.facebook.katana/u0a350}, reason = unfreezeTemporarily, adj = 915, adjType = cch-empty, adjSource = null
+07-10 07:39:39.970 2828-3824/? D/ActivityManager: sync unfroze 27495 com.facebook.katana for 27
+07-10 07:39:39.975 2828-3824/? W/JobServiceContext: Sending onNetworkChanged for a job that isn't started. JobStatus{d05cf3b androidx.work.systemjobscheduler:u0a350/64267 @androidx.work.systemjobscheduler@com.facebook.katana/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10350 TIME=-25ms:none NET READY}
+07-10 07:39:39.975 1865-1865/? D/Zygote: Forked child process 27751
+07-10 07:39:39.975 2828-2875/? I/ActivityManager: Start proc 27751:com.motorola.lifetimedata/u0a290 for broadcast {com.motorola.lifetimedata/com.motorola.lifetimedata.receiver.LifetimeDataReceiver}
+07-10 07:39:39.986 27751-27751/? I/la.lifetimedata: Using CollectorTypeCMC GC.
+07-10 07:39:39.987 27495-27495/? W/fb4a.AppComponentFactory: Instantiating Service
+07-10 07:39:39.988 2828-4568/? D/ConnectivityService: Returning UNBLOCKED NetworkInfo to uid=10350
+07-10 07:39:39.990 27751-27751/? E/la.lifetimedata: Not starting debugger since process cannot load the jdwp agent.
+07-10 07:39:39.995 27751-27751/? D/nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+07-10 07:39:39.995 27495-27613/? E/fb4a.GraphServiceQueryExecutor: query error
+    X.6VD: TigonError(error=TransientError, errorDomain=TigonLigerErrorDomain, domainErrorCode=2, analyticsDetail="AsyncSocketException: connect failed (immediately), type = Socket not open, errno = 101 (Network is unreachable)"), queryName=FbAvatarUserPreferenceQuery
+        at X.24V.onError(Unknown Source:64)
+        at X.296.onError(Unknown Source:238)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1DW.execute(Unknown Source:0)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1AJ.run(Unknown Source:2)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+        at X.1BZ.run(Unknown Source:3)
+        at X.1Bg.run(Unknown Source:17)
+        at java.lang.Thread.run(Thread.java:1119)
+07-10 07:39:39.997 27495-27612/? E/fb4a.GraphServiceQueryExecutor: query error
+    X.6VD: TigonError(error=TransientError, errorDomain=TigonLigerErrorDomain, domainErrorCode=2, analyticsDetail="AsyncSocketException: connect failed (immediately), type = Socket not open, errno = 101 (Network is unreachable)"), queryName=PlayHorizonServicesAvatarTravelPreloadQuery
+        at X.24V.onError(Unknown Source:64)
+        at X.296.onError(Unknown Source:238)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1DW.execute(Unknown Source:0)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1AJ.run(Unknown Source:2)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+        at X.1BZ.run(Unknown Source:3)
+        at X.1Bg.run(Unknown Source:17)
+        at java.lang.Thread.run(Thread.java:1119)
+07-10 07:39:39.999 27495-27611/? E/fb4a.GraphServiceQueryExecutor: query error
+    X.6VD: TigonError(error=TransientError, errorDomain=TigonLigerErrorDomain, domainErrorCode=2, analyticsDetail="AsyncSocketException: connect failed (immediately), type = Socket not open, errno = 101 (Network is unreachable)"), queryName=USFSettingsCacheQuery
+        at X.24V.onError(Unknown Source:64)
+        at X.296.onError(Unknown Source:238)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1DW.execute(Unknown Source:0)
+        at com.facebook.common.jniexecutors.NativeRunnable.nativeRun(Native Method)
+        at com.facebook.common.jniexecutors.NativeRunnable.run(Unknown Source:8)
+        at com.facebook.common.jniexecutors.PooledNativeRunnable.run(Unknown Source:7)
+        at X.1AJ.run(Unknown Source:2)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+        at X.1BZ.run(Unknown Source:3)
+        at X.1Bg.run(Unknown Source:17)
+        at java.lang.Thread.run(Thread.java:1119)
+07-10 07:39:40.001 2828-4568/? D/ConnectivityService: requestNetwork for uid/pid:10350/27495 activeRequest: null callbackRequest: 34297 [NetworkRequest [ REQUEST id=34298, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10350 RequestorUid: 10350 RequestorPkg: com.facebook.katana UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: AVAIL|LOST|NC
+07-10 07:39:40.002 2828-3997/? D/WifiNetworkFactory: got request NetworkRequest [ REQUEST id=34298, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10350 RequestorUid: 10350 RequestorPkg: com.facebook.katana UnderlyingNetworks: Null] ]
+07-10 07:39:40.002 2828-3997/? D/UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=34298, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10350 RequestorUid: 10350 RequestorPkg: com.facebook.katana UnderlyingNetworks: Null] ]
+07-10 07:39:40.002 2828-3997/? D/OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=34298, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10350 RequestorUid: 10350 RequestorPkg: com.facebook.katana UnderlyingNetworks: Null] ]
+07-10 07:39:40.002 2828-3997/? D/MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=34298, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10350 RequestorUid: 10350 RequestorPkg: com.facebook.katana UnderlyingNetworks: Null] ]
+07-10 07:39:40.002 2828-4004/? D/ConnectivityService: NetReassign [34298 : null → 762] [c 0] [a 1] [i 0]
+07-10 07:39:40.003 6655-6668/? D/ForegroundUtils: Foreground UID status: 10178, false; 10195, false; 10197, false; 10234, false; 10238, false; 10271, false; 10285, true; 10324, true; 10331, true; 10349, true; 10351, true; 
+07-10 07:39:40.025 27751-27751/? D/nativeloader: Configuring clns-shared-7 for other apk /system/framework/moto-settings.jar. target_sdk_version=35, uses_libraries=ALL, library_path=/system_ext/priv-app/LifetimeData/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.motorola.lifetimedata:/system_ext/priv-app/LifetimeData:/system/lib64:/system_ext/lib64
+    Extending system_exposed_libraries: libbinauralrenderer_wrapper.qti.so:libhoaeffects.qti.so:libjni_helper.motocameradesktop.so:libimgTuner_jni.motoimagetuner.so:libparamupdater_jni.motoparamupdater.so:libupdateprof.qti.so:libdiag_system.qti.so:libqape.qti.so:libqesdk_ndk_platform.qti.so:liblistenjni.qti.so
+07-10 07:39:40.026 27751-27751/? D/ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+    Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+07-10 07:39:40.033 27495-27495/? E/fb4a.SlowAppComponent: 0ms: SystemJobService instantiating…
+    Main thread was blocked for 46ms in the background starting with SystemJobService
+07-10 07:39:40.038 27751-27751/? D/nativeloader: Configuring clns-shared-8 for other apk /system_ext/priv-app/LifetimeData/LifetimeData.apk. target_sdk_version=35, uses_libraries=, library_path=/system_ext/priv-app/LifetimeData/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.motorola.lifetimedata:/system_ext/priv-app/LifetimeData:/system/lib64:/system_ext/lib64
+07-10 07:39:40.040 27751-27751/? D/CompatChangeReporter: Compat change id reported: 202956589; UID 10290; state: ENABLED
+07-10 07:39:40.051 27751-27751/? V/GraphicsEnvironment: Currently set values for:
+      angle_gl_driver_selection_pkgs=[]
+      angle_gl_driver_selection_values=[]
+    Global.Settings values are invalid: number of packages: 0, number of values: 0
+07-10 07:39:40.062 27751-27751/? I/Typeface: updateThemeFont new=Rookery-Regular;old=sans-serif;new=Rookery-Stacked;old=
+07-10 07:39:40.064 2828-4377/? I/ActivityManager: Flag disabled. Ignoring finishAttachApplication from uid: 10290. pid: 27751
+07-10 07:39:40.067 27751-27751/? D/CompatChangeReporter: Compat change id reported: 311402873; UID 10290; state: ENABLED
+    Compat change id reported: 323349338; UID 10290; state: ENABLED
+07-10 07:39:40.068 2828-4377/? D/CompatChangeReporter: Compat change id reported: 311402873; UID 10290; state: ENABLED
+    Compat change id reported: 323349338; UID 10290; state: ENABLED
+07-10 07:39:40.086 27751-27771/? E/LifetimeData: TrafficStatsRepository: updateTrafficStats: no user consent for app usage access
+07-10 07:39:40.087 2828-4377/? D/PowerManagerService: nativeReleaseSuspendBlocker name:PowerManagerService.WakeLocks duration ms: 0
+07-10 07:39:40.088 2828-4377/? D/CompatChangeReporter: Compat change id reported: 311208629; UID 10290; state: ENABLED
+07-10 07:39:40.090 2828-4568/? I/ActivityManager: Killing 24977:com.google.android.as.oss/u0a212 (adj 999, setSvc -10000): empty #31
+07-10 07:39:40.117 2828-4568/? I/ActivityManager: appDiedLocked: app=ProcessRecord{acbe791 24977:com.google.android.as.oss/u0a212} thread=android.os.BinderProxy@2fccc23 fromBinderDied=true isKilledByAm=true reason=null
+07-10 07:39:40.118 2828-4568/? D/RestartModeController: markWaitRestartAppIsSuicided null processName=com.google.android.as.oss
+07-10 07:39:40.118 1865-1865/? I/Zygote: Process 24977 exited due to signal 9 (Killed)
+07-10 07:39:40.119 2828-2853/? D/DisplayManagerService: Drop pending events for gone uid 10212
+07-10 07:39:40.119 2828-4568/? D/ActivityTaskManager: handleAppDied: uid=10212,diedCount=1,lastDiedTime=536329426,forceStopUids=false
+07-10 07:39:40.119 6655-6668/? D/ForegroundUtils: UID: 10212 deleted.
+07-10 07:39:40.126 2828-2887/? I/libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10212/pid_24977
+07-10 07:39:40.126 2828-2887/? W/libprocessgroup: RemoveCgroup: /dev/memcg/apps/uid_10212/pid_24977 does not exist.
+07-10 07:39:40.189 1966-3819/? I/slpi-mot_tap: cor_sums, 78.8, 69.7, 64.5,  0.0, sigzm, 13.4, pk, 11.8, pcor, 78.8, slps,  0.0, 78.8, -78.8, *ang,   0.4, tn,  1.7, Tap 26 000000000000000000000000000000000000000
+07-10 07:39:40.195 2011-4145/? I/WifiHAL: event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+07-10 07:39:40.196 3201-4146/? D/LOWI-9.0.1.65: [LOWI-Scan] wait_event:Wait done with Cmd 103
+    [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0
+07-10 07:39:40.196 3090-3090/? I/cnss-daemon: nl80211 response handler invoked
+    nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+07-10 07:39:40.664 2828-3997/? D/WifiStaIfaceHidlImpl: getCachedScanData is not implemented by HIDL
+07-10 07:39:40.666 2828-12526/? I/MotoWifiScorer: onWifiUsabilityStats, seqNum: 1180, isSameBssidAndFreq: true, RSSI: -48, isThroughputSufficient: true, LinkSpeed: 263 Mbps, RxLinkSpeed: 650 Mbps
+    updateWifiUsabilityStats, seqNum: 1180, RSSI: -48, isThroughputSufficient: true, LinkSpeed: 263 Mbps, RxLinkSpeed: 650 Mbps
+    updateWifiUsabilityStats, Duration: 3017, Rx Good: 7, Tx Good: 9, Tx Bad: 0 ( 0 % ), Tx Retry: 19 ( 67 % )
+07-10 07:39:40.667 2828-12526/? I/MotoWifiScorer: onWifiUsabilityStats, FinalScore: 60, RssiBasedScore: 60, LinkBonus: 0, TcpBonus: 0
+07-10 07:39:40.671 2828-12526/? I/MotoWifiScorer: onWifiUsabilityStats, WiFi Usable: true
+07-10 07:39:40.676 2828-4004/? D/ConnectivityService: NetReassign [no changes] [c 1] [a 0] [i 5]
+07-10 07:39:40.720 2136-2268/? I/SDM: HWDeviceDRM::SetupConcurrentWriteback: Tear down the Concurrent Writeback topology
+07-10 07:39:40.926 27495-27639/? E/fb4a.FbnsAIDLClientManager: Max Try reached for binding to FbnsAIDLService, threadId 842
+07-10 07:39:40.927 27495-27639/? E/fb4a.FbnsAIDLClientManager: Fbns AIDL request got RemoteException
+    android.os.RemoteException: AIDLService is not bound
+        at X.0RC.A00(:27)
+        at X.0RG.call(:203)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:651)
+        at java.lang.Thread.run(Thread.java:1119)
+07-10 07:39:40.952 3078-3844/? D/BufferPoolAccessor2.0: bufferpool2 0xb400006f2b692f08 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+    evictor expired: 1, evicted: 1
+07-10 07:39:42.025 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:42.028 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+    Destroyed live tcp sockets for uids={10155} in 6ms
+07-10 07:39:42.031 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+07-10 07:39:42.034 2828-4004/? D/InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+    Destroyed live tcp sockets for uids={20155} in 5ms
+07-10 07:39:42.233 2011-4145/? I/WifiHAL: event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+07-10 07:39:42.234 3090-3090/? I/cnss-daemon: nl80211 response handler invoked
+07-10 07:39:42.234 3201-4146/? D/LOWI-9.0.1.65: [LOWI-Scan] wait_event:Wait done with Cmd 103
+07-10 07:39:42.234 3090-3090/? I/cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+07-10 07:39:42.234 3201-4146/? D/LOWI-9.0.1.65: [LOWI-Scan] do_listen_events: Rcvd valid Netlink Cmd 0 Err 0

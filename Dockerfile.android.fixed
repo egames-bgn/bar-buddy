@@ -1,0 +1,83 @@
+FROM eclipse-temurin:17-jdk
+
+# Install Node.js
+RUN apt-get update && apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
+RUN apt-get install -y nodejs
+
+# Install required packages
+RUN apt-get update && apt-get install -y \
+    git \
+    unzip \
+    cmake \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Android SDK
+ENV ANDROID_HOME /opt/android-sdk
+RUN mkdir -p ${ANDROID_HOME}
+
+# Download Android SDK tools
+RUN cd /tmp && \
+    curl -O https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip && \
+    unzip commandlinetools-linux-8512546_latest.zip -d ${ANDROID_HOME} && \
+    rm commandlinetools-linux-8512546_latest.zip
+
+# Set up Android SDK
+ENV PATH ${PATH}:${ANDROID_HOME}/cmdline-tools/bin:${ANDROID_HOME}/platform-tools
+# Override all D-drive environment variables with standard Linux paths
+ENV TEMP=/tmp \
+    TMP=/tmp \
+    TMPDIR=/tmp \
+    npm_config_cache=/root/.npm \
+    npm_config_tmp=/tmp \
+    LOG_DIR=/var/log \
+    BARBUDDY_LOG_DIR=/var/log/barbuddy
+
+RUN mkdir -p ${ANDROID_HOME}/cmdline-tools/latest
+RUN mv ${ANDROID_HOME}/cmdline-tools/bin ${ANDROID_HOME}/cmdline-tools/lib ${ANDROID_HOME}/cmdline-tools/source.properties ${ANDROID_HOME}/cmdline-tools/latest
+
+# Accept licenses and install required components
+RUN yes | ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager --licenses
+RUN ${ANDROID_HOME}/cmdline-tools/latest/bin/sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.0"
+
+# Install Expo CLI and EAS CLI
+RUN npm install -g expo-cli eas-cli
+
+# Set up working directory
+WORKDIR /app
+
+# Copy package.json and install dependencies
+COPY package.json package-lock.json* ./
+RUN npm install
+
+# Copy the fix script first
+COPY fix-use-latest-callback-lib.js ./
+
+# Copy the rest of the application
+COPY . .
+
+# Apply the use-latest-callback fix AFTER copying all files
+RUN node fix-use-latest-callback-lib.js
+
+# Also fix any nested use-latest-callback packages in expo-router
+RUN find node_modules -name "use-latest-callback" -type d -exec sh -c 'cd "$1" && if [ ! -d lib ]; then mkdir -p lib; fi && if [ ! -f lib/index.js ]; then echo "module.exports = require(\"../src/index.js\") || function useLatestCallback(callback) { const ref = require(\"react\").useRef(callback); ref.current = callback; return require(\"react\").useCallback((...args) => ref.current(...args), []); }; module.exports.default = module.exports;" > lib/index.js; fi' _ {} \;
+
+# Create custom NavigationContainer
+RUN mkdir -p components
+COPY docker-build-files/CustomNavigationContainer.js ./components/
+
+# Update metro.config.js
+COPY docker-build-files/metro.config.js ./
+
+# Generate native Android project
+RUN npx expo prebuild --platform android --clean
+
+# CRITICAL FIX: Create the assets directory and generate the bundle
+RUN mkdir -p android/app/src/main/assets
+RUN npx expo export --platform android --output-dir dist
+RUN cp dist/_expo/static/js/android/*.js android/app/src/main/assets/index.android.bundle || cp dist/bundles/android-*.js android/app/src/main/assets/index.android.bundle || echo "Bundle file not found in expected locations"
+
+# Build the APK
+RUN cd android && ./gradlew assembleDebug
+
+# The APK will be available at /app/android/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,5 @@
+// Disable react-native-reanimated native build to work around Windows path length limitations
+project.ext.react = [
+    enableHermes: true,
+    disableReanimatedNativeBuilds: true
+]

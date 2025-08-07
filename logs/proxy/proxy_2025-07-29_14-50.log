@@ -1,0 +1,5 @@
+===== BarBuddy Proxy Server Started at Tue 07/29/2025 14:50:02.93 ===== 
+Proxy server running in DEV environment
+Proxying Cheerios requests to: https://ntnservices.dev.buzztime.com
+Proxying CloudHub requests to: https://ch-api-dev-ooifid6utq-uc.a.run.app
+API Proxy server running on port 3000

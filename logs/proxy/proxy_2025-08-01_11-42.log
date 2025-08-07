@@ -1,0 +1,454 @@
+===== BarBuddy Proxy Server Started at Fri 08/01/2025 11:42:40.29 ===== 
+Proxy server running in DEV environment
+Proxying Cheerios requests to: https://ntnservices.dev.buzztime.com
+Proxying CloudHub requests to: https://ch-api-dev-ooifid6utq-uc.a.run.app
+API Proxy server running on port 3000
+
+[PROXY SERVER] 2025-08-01T18:57:15.765Z - GET /barbuddies/user_buddies/
+[PROXY SERVER] Client IP: ::1
+[PROXY SERVER] Headers: {
+  host: 'localhost:3000',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"macOS"',
+  'accept-language': 'en-US,en;q=0.9',
+  'sec-ch-ua': '"Chromium";v="135", "Not:A Brand";v="99", "Google Chrome";v="135"',
+  'auth-token': '2cae9a75d52945beaa0b045b0525cef1',
+  'sec-ch-ua-mobile': '?0',
+  'x-client-type': 'web-client',
+  accept: 'application/json',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+  origin: 'http://localhost:8081',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:8081/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'if-none-match': 'W/"bc-eSa2lGFpi6IsfUD5MiqosrfpmFE"'
+}
+[PROXY SERVER] Using Cheerios API for path: /barbuddies/user_buddies/
+[PROXY SERVER] Forwarding request to: https://ntnservices.dev.buzztime.com/barbuddies/user_buddies/?UserID=30313905
+[PROXY SERVER] Using standard headers for Cheerios API
+[PROXY SERVER] Sending request to API server...
+[PROXY SERVER] API response received - Status: 200
+[PROXY SERVER] Response headers: Object [AxiosHeaders] {
+  server: 'nginx',
+  date: 'Fri, 01 Aug 2025 18:57:16 GMT',
+  'content-type': 'application/json',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  allow: 'GET, HEAD, OPTIONS',
+  'x-frame-options': 'SAMEORIGIN, DENY',
+  vary: 'Cookie',
+  'x-content-type-options': 'nosniff'
+}
+[PROXY SERVER] Response data: {
+  '0': [
+    {
+      id: '30345953',
+      username: 'JUAN',
+      location: 'Hank Inn PC P - Carlsbad, CA',
+      lastPlayDate: '2025-06-13T00:00:00',
+      isOnline: false
+    }
+  ],
+  '1': [ { nextCursor: null, totalCount: 1, hasMore: false } ]
+}
+[PROXY SERVER] Forwarding response to client
+
+[PROXY SERVER] 2025-08-01T18:57:16.167Z - GET /barbuddies/stories/
+[PROXY SERVER] Client IP: ::1
+[PROXY SERVER] Headers: {
+  host: 'localhost:3000',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"macOS"',
+  'accept-language': 'en-US,en;q=0.9',
+  'sec-ch-ua': '"Chromium";v="135", "Not:A Brand";v="99", "Google Chrome";v="135"',
+  'auth-token': '2cae9a75d52945beaa0b045b0525cef1',
+  'sec-ch-ua-mobile': '?0',
+  'x-client-type': 'web-client',
+  accept: 'application/json',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+  origin: 'http://localhost:8081',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:8081/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'if-none-match': 'W/"6c0-uhs9mrRHBBcnnOouIzjg9ZxqB+0"'
+}
+[PROXY SERVER] Using Cheerios API for path: /barbuddies/stories/
+[PROXY SERVER] Forwarding request to: https://ntnservices.dev.buzztime.com/barbuddies/stories/?UserID=30313905
+[PROXY SERVER] Using standard headers for Cheerios API
+[PROXY SERVER] Sending request to API server...
+[PROXY SERVER] API response received - Status: 200
+[PROXY SERVER] Response headers: Object [AxiosHeaders] {
+  server: 'nginx',
+  date: 'Fri, 01 Aug 2025 18:57:16 GMT',
+  'content-type': 'application/json',
+  'content-length': '463',
+  connection: 'close',
+  allow: 'GET, HEAD, OPTIONS',
+  'x-frame-options': 'SAMEORIGIN, DENY',
+  vary: 'Accept-Encoding, Cookie',
+  'x-content-type-options': 'nosniff'
+}
+[PROXY SERVER] Response data: {
+  stories: [
+    {
+      PostID: 17,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'going mobile',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-08-01T10:32:48.513',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 16,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'Another test on the web',
+      LocationID: null,
+      LocationName: null,
+      IsLocationHidden: true,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T14:00:01.967',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 15,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'On the web and hiding my location',
+      LocationID: null,
+      LocationName: null,
+      IsLocationHidden: true,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T13:28:02.703',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 14,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'This place is a virtual playground ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T12:41:04.870',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 13,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'This place is a virtual playground ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T11:53:36.800',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 12,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: "Don't eat the clams. ",
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-09T07:52:42.277',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 11,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'great place, nice kitchen ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-09T07:51:56.920',
+      ModifiedDate: null,
+      Status: 'active'
+    }
+  ],
+  pagination: {}
+}
+[PROXY SERVER] Forwarding response to client
+
+[PROXY SERVER] 2025-08-01T18:57:16.355Z - GET /barbuddies/stories/
+[PROXY SERVER] Client IP: ::1
+[PROXY SERVER] Headers: {
+  host: 'localhost:3000',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"macOS"',
+  'accept-language': 'en-US,en;q=0.9',
+  'sec-ch-ua': '"Chromium";v="135", "Not:A Brand";v="99", "Google Chrome";v="135"',
+  'auth-token': '2cae9a75d52945beaa0b045b0525cef1',
+  'sec-ch-ua-mobile': '?0',
+  'x-client-type': 'web-client',
+  accept: 'application/json',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+  origin: 'http://localhost:8081',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:8081/',
+  'accept-encoding': 'gzip, deflate, br, zstd',
+  'if-none-match': 'W/"6c0-uhs9mrRHBBcnnOouIzjg9ZxqB+0"'
+}
+[PROXY SERVER] Using Cheerios API for path: /barbuddies/stories/
+[PROXY SERVER] Forwarding request to: https://ntnservices.dev.buzztime.com/barbuddies/stories/?UserID=30313905&limit=10
+[PROXY SERVER] Using standard headers for Cheerios API
+[PROXY SERVER] Sending request to API server...
+[PROXY SERVER] API response received - Status: 200
+[PROXY SERVER] Response headers: Object [AxiosHeaders] {
+  server: 'nginx',
+  date: 'Fri, 01 Aug 2025 18:57:17 GMT',
+  'content-type': 'application/json',
+  'content-length': '463',
+  connection: 'close',
+  allow: 'GET, HEAD, OPTIONS',
+  'x-frame-options': 'SAMEORIGIN, DENY',
+  vary: 'Accept-Encoding, Cookie',
+  'x-content-type-options': 'nosniff'
+}
+[PROXY SERVER] Response data: {
+  stories: [
+    {
+      PostID: 17,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'going mobile',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-08-01T10:32:48.513',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 16,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'Another test on the web',
+      LocationID: null,
+      LocationName: null,
+      IsLocationHidden: true,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T14:00:01.967',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 15,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'On the web and hiding my location',
+      LocationID: null,
+      LocationName: null,
+      IsLocationHidden: true,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T13:28:02.703',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 14,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'This place is a virtual playground ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T12:41:04.870',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 13,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: 'This place is a virtual playground ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-31T11:53:36.800',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 12,
+      UserID: 30313905,
+      Username: 'PHRANC',
+      PostType: 'checkin',
+      PostContent: "Don't eat the clams. ",
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-09T07:52:42.277',
+      ModifiedDate: null,
+      Status: 'active'
+    },
+    {
+      PostID: 11,
+      UserID: 30345953,
+      Username: 'JUAN',
+      PostType: 'checkin',
+      PostContent: 'great place, nice kitchen ',
+      LocationID: '1080',
+      LocationName: 'Hank Inn PC P',
+      IsLocationHidden: false,
+      PhotoURL: null,
+      CreatedDate: '2025-07-09T07:51:56.920',
+      ModifiedDate: null,
+      Status: 'active'
+    }
+  ],
+  pagination: {}
+}
+[PROXY SERVER] Forwarding response to client
+
+[PROXY SERVER] 2025-08-01T18:57:48.575Z - GET /barbuddies/user_buddies/
+[PROXY SERVER] Client IP: ::1
+[PROXY SERVER] Headers: {
+  host: 'localhost:3000',
+  connection: 'keep-alive',
+  'sec-ch-ua-platform': '"macOS"',
+  'accept-language': 'en-US,en;q=0.9',
+  'sec-ch-ua': '"Chromium";v="135", "Not:A Brand";v="99", "Google Chrome";v="135"',
+  'auth-token': '2cae9a75d52945beaa0b045b0525cef1',
+  'sec-ch-ua-mobile': '?0',
+  'x-client-type': 'web-client',
+  accept: 'application/json',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+  origin: 'http://localhost:8081',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:8081/',
+  'accept-encoding': 'gzip, deflate, br, zstd'
+}
+[PROXY SERVER] Using Cheerios API for path: /barbuddies/user_buddies/
+[PROXY SERVER] Forwarding request to: https://ntnservices.dev.buzztime.com/barbuddies/user_buddies/?UserID=30313905&Limit=20
+[PROXY SERVER] Using standard headers for Cheerios API
+[PROXY SERVER] Sending request to API server...
+
+[PROXY SERVER] 2025-08-01T18:57:48.601Z - POST /barbuddies/buddy_request/
+[PROXY SERVER] Client IP: ::1
+[PROXY SERVER] Headers: {
+  host: 'localhost:3000',
+  connection: 'keep-alive',
+  'content-length': '108',
+  'sec-ch-ua-platform': '"macOS"',
+  'accept-language': 'en-US,en;q=0.9',
+  'sec-ch-ua': '"Chromium";v="135", "Not:A Brand";v="99", "Google Chrome";v="135"',
+  'auth-token': '2cae9a75d52945beaa0b045b0525cef1',
+  'sec-ch-ua-mobile': '?0',
+  'x-client-type': 'web-client',
+  accept: 'application/json',
+  'content-type': 'application/json',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36',
+  origin: 'http://localhost:8081',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  'sec-fetch-dest': 'empty',
+  referer: 'http://localhost:8081/',
+  'accept-encoding': 'gzip, deflate, br, zstd'
+}
+[PROXY SERVER] Request body: {
+  CurrentUserID: '30313905',
+  RequestType: 'GetRequests',
+  ViewType: 'RECEIVED',
+  Status: 'PENDING',
+  Limit: 50
+}
+[PROXY SERVER] Using Cheerios API for path: /barbuddies/buddy_request/
+[PROXY SERVER] Forwarding request to: https://ntnservices.dev.buzztime.com/barbuddies/buddy_request/
+[PROXY SERVER] Using standard headers for Cheerios API
+[PROXY SERVER] Sending request to API server...
+[PROXY SERVER] API response received - Status: 200
+[PROXY SERVER] Response headers: Object [AxiosHeaders] {
+  server: 'nginx',
+  date: 'Fri, 01 Aug 2025 18:57:49 GMT',
+  'content-type': 'application/json',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  allow: 'GET, HEAD, OPTIONS',
+  'x-frame-options': 'SAMEORIGIN, DENY',
+  vary: 'Cookie',
+  'x-content-type-options': 'nosniff'
+}
+[PROXY SERVER] Response data: {
+  '0': [
+    {
+      id: '30345953',
+      username: 'JUAN',
+      location: 'Hank Inn PC P - Carlsbad, CA',
+      lastPlayDate: '2025-06-13T00:00:00',
+      isOnline: false
+    }
+  ],
+  '1': [ { nextCursor: null, totalCount: 1, hasMore: false } ]
+}
+[PROXY SERVER] Forwarding response to client
+[PROXY SERVER] API response received - Status: 200
+[PROXY SERVER] Response headers: Object [AxiosHeaders] {
+  server: 'nginx',
+  date: 'Fri, 01 Aug 2025 18:57:49 GMT',
+  'content-type': 'application/json',
+  'transfer-encoding': 'chunked',
+  connection: 'close',
+  allow: 'POST, OPTIONS',
+  'x-frame-options': 'SAMEORIGIN, DENY',
+  vary: 'Cookie',
+  'x-content-type-options': 'nosniff'
+}
+[PROXY SERVER] Response data: {
+  requests: [],
+  pagination: { nextCursor: null, hasMore: false, totalCount: 0 }
+}
+[PROXY SERVER] Forwarding response to client
+
+==== Nearby Locations Request ====
+Request body: {"latitude":33.1581,"longitude":-117.3506,"max_sites":30,"isMockLocationFlag":false}
+Headers received: {"host":"localhost:3000","connection":"keep-alive","content-length":"84","sec-ch-ua-platform":"\"macOS\"","accept-language":"en-US,en;q=0.9","sec-ch-ua":"\"Chromium\";v=\"135\", \"Not:A Brand\";v=\"99\", \"Google Chrome\";v=\"135\"","sec-ch-ua-mobile":"?0","x-client-type":"web-client","accept":"application/json, text/plain, */*","content-type":"application/json","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36","origin":"http://localhost:8081","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:8081/","accept-encoding":"gzip, deflate, br, zstd"}
+Auth token found: No
+Using token: Default web token
+[PROXY SERVER] Generating JWT with custom payload
+Request payload: {"Latitude":33.1581,"Longitude":-117.3506,"MaxSites":30,"IsMockLocationFlag":false}
+Sending request to CloudHub API...
+Using JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIxNzU0MDc0OTc0IiwiYXV0aF90b2tlbiI6ImRlZmF1bHQtd2ViLXRva2VuIn0.TiTFEezCGMC1tRHL2jSmiA297bIHkKTzvWRptBL0_V8
+Error proxying nearby locations request: Request failed with status code 481
+Error status: 481
+Error data: Invalid auth token
