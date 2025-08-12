@@ -9,9 +9,10 @@ docker stop $(docker ps -q --filter ancestor=bar-buddy-android-fixed-debug) 2>nu
 echo Step 2: Ensuring assets directory exists...
 if not exist "android\app\src\main\assets" mkdir "android\app\src\main\assets"
 
-echo Step 3: Generating bundle with correct entry point...
-echo Using custom-entry.js as entry point...
-npx expo export --platform android --output-dir dist --entry-file ./custom-entry.js
+echo Step 3: Generating bundle...
+echo Note: For release builds, this pre-generation is not actually required as Gradle handles bundle generation automatically
+echo Using default entry point...
+npx expo export --platform android --output-dir dist
 
 echo Step 4: Checking export results...
 dir dist /s
@@ -52,6 +53,7 @@ copy "android\app\build\outputs\apk\debug\app-debug.apk" "apk-output\bar-buddy-f
 
 echo ========================================
 echo BUILD COMPLETE!
+echo Note: For release builds, bundle pre-generation is not required as Gradle handles this automatically
 echo APK: apk-output\bar-buddy-fixed-bundle-v2.apk
 echo ========================================
 pause

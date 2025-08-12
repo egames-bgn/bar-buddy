@@ -78,14 +78,15 @@ This document lists all known requirements and steps necessary to successfully b
 ### Building the APK
 1. Open PowerShell or Command Prompt
 2. Navigate to the project root directory
-3. **RECOMMENDED**: Use the updated build script with pre-generated bundle:
+3. **RECOMMENDED**: Use the optimized build script:
    ```powershell
-   C:\GitHub\bar-buddy\build-android-docker-fixed-v2.bat
+   C:\GitHub\bar-buddy\build-android-docker-optimized.bat
    ```
    
-   **Alternative**: Original build script (slower):
+   **Alternative**: Original build scripts:
    ```powershell
    C:\GitHub\bar-buddy\build-android-docker-fixed-bundle.bat
+   C:\GitHub\bar-buddy\build-android-docker-fixed-v2.bat
    ```
 
 4. The build process will:
@@ -93,11 +94,10 @@ This document lists all known requirements and steps necessary to successfully b
    - Install Android SDK components (Platform 33, Build-Tools 33.0.0)
    - Install Node.js 18 and required npm packages
    - Apply use-latest-callback fixes for expo-router compatibility
-   - **V2 Process**: Use pre-generated JavaScript bundle (faster)
-   - **Original Process**: Generate the JavaScript bundle with `expo export` (slower)
    - Compile native code for all Android architectures (arm64-v8a, armeabi-v7a, x86, x86_64)
    - Build React Native Reanimated and expo-modules-core native components
    - **CRITICAL**: Assemble RELEASE APK with Gradle (`assembleRelease`, not `assembleDebug`)
+   - Gradle automatically generates the JavaScript bundle on-the-fly during the build process
    - Extract APK from Docker container
 
 5. The APK will be available after extraction:
@@ -447,7 +447,7 @@ async function hmacSha256(message, secret) {
 ### Building the Android APK
 ```bash
 # From project root directory
-.\build-android-docker-fixed-v2.bat
+.\build-android-docker-optimized.bat
 ```
 
 ### APK Output Location
